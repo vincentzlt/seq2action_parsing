@@ -4,4 +4,5 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-data/
+data/ud-treebanks-conll2017/*
+!data/ud-treebanks-conll2017/UD_English/
