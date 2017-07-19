@@ -1,0 +1,1980 @@
+shift      [             ROOT Al] [- Zaman : American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [           ROOT Al -] [Zaman : American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [             ROOT Al] [Zaman : American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [       ROOT Al Zaman] [: American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [             ROOT Al] [: American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [           ROOT Al :] [American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [             ROOT Al] [American forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+
+process non-proj swap 6
+shift      [    ROOT Al American] [forces killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al American forces] [killed Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al American forces killed] [Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+swap       [ROOT Al American killed] [forces Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+swap       [      ROOT Al killed] [American forces Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+end process non-proj ...
+
+
+process non-proj swap 5
+shift      [ROOT Al killed American] [forces Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed American forces] [Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+swap       [ROOT Al killed forces] [American Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+end process non-proj ...
+
+shift      [ROOT Al killed forces American] [Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed forces] [Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [      ROOT Al killed] [Shaikh Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh] [Abdullah al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh Abdullah] [al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [al - Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh al] [- Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [- Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh -] [Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [Ani , the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh Ani] [, the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [, the preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh ,] [the preacher at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [the preacher at the mosque in the town of Qaim , near the Syrian border .]
+
+process non-proj swap 14
+shift      [ROOT Al killed Shaikh the] [preacher at the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed Shaikh the preacher] [at the mosque in the town of Qaim , near the Syrian border .]
+swap       [ROOT Al killed Shaikh preacher] [the at the mosque in the town of Qaim , near the Syrian border .]
+end process non-proj ...
+
+shift      [ROOT Al killed Shaikh preacher the] [at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh preacher] [at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed Shaikh] [at the mosque in the town of Qaim , near the Syrian border .]
+right-r         [      ROOT Al killed] [at the mosque in the town of Qaim , near the Syrian border .]
+
+process non-proj swap 17
+shift      [   ROOT Al killed at] [the mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed at the] [mosque in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed at the mosque] [in the town of Qaim , near the Syrian border .]
+swap       [ROOT Al killed at mosque] [the in the town of Qaim , near the Syrian border .]
+swap       [ROOT Al killed mosque] [at the in the town of Qaim , near the Syrian border .]
+end process non-proj ...
+
+shift      [ROOT Al killed mosque at] [the in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed mosque] [the in the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed mosque the] [in the town of Qaim , near the Syrian border .]
+right-r         [ROOT Al killed mosque] [in the town of Qaim , near the Syrian border .]
+
+process non-proj swap 20
+shift      [ROOT Al killed mosque in] [the town of Qaim , near the Syrian border .]
+shift      [ROOT Al killed mosque in the] [town of Qaim , near the Syrian border . ]
+shift      [ROOT Al killed mosque in the town] [of Qaim , near the Syrian border .      ]
+swap       [ROOT Al killed mosque in town] [the of Qaim , near the Syrian border .  ]
+swap       [ROOT Al killed mosque town] [in the of Qaim , near the Syrian border .]
+end process non-proj ...
+
+shift      [ROOT Al killed mosque town in] [the of Qaim , near the Syrian border .  ]
+right-r         [ROOT Al killed mosque town] [the of Qaim , near the Syrian border .  ]
+shift      [ROOT Al killed mosque town the] [of Qaim , near the Syrian border .      ]
+right-r         [ROOT Al killed mosque town] [of Qaim , near the Syrian border .      ]
+
+process non-proj swap 22
+shift      [ROOT Al killed mosque town of] [Qaim , near the Syrian border .         ]
+shift      [ROOT Al killed mosque town of Qaim] [, near the Syrian border .              ]
+swap       [ROOT Al killed mosque town Qaim] [of , near the Syrian border .           ]
+end process non-proj ...
+
+shift      [ROOT Al killed mosque town Qaim of] [, near the Syrian border .              ]
+right-r         [ROOT Al killed mosque town Qaim] [, near the Syrian border .              ]
+right-r         [ROOT Al killed mosque town] [, near the Syrian border .              ]
+shift      [ROOT Al killed mosque town ,] [near the Syrian border .                ]
+right-r         [ROOT Al killed mosque town] [near the Syrian border .                ]
+
+process non-proj swap 27
+shift      [ROOT Al killed mosque town near] [the Syrian border .                     ]
+shift      [ROOT Al killed mosque town near the] [Syrian border .                         ]
+shift      [ROOT Al killed mosque town near the Syrian] [border .                                ]
+shift      [ROOT Al killed mosque town near the Syrian border] [.                                       ]
+swap       [ROOT Al killed mosque town near the border] [Syrian .                                ]
+swap       [ROOT Al killed mosque town near border] [the Syrian .                            ]
+swap       [ROOT Al killed mosque town border] [near the Syrian .                       ]
+end process non-proj ...
+
+shift      [ROOT Al killed mosque town border near] [the Syrian .                            ]
+right-r         [ROOT Al killed mosque town border] [the Syrian .                            ]
+shift      [ROOT Al killed mosque town border the] [Syrian .                                ]
+right-r         [ROOT Al killed mosque town border] [Syrian .                                ]
+shift      [ROOT Al killed mosque town border Syrian] [.                                       ]
+right-r         [ROOT Al killed mosque town border] [.                                       ]
+right-r         [ROOT Al killed mosque town] [.                                       ]
+right-r         [ROOT Al killed mosque] [.                                       ]
+right-r         [      ROOT Al killed] [.                                       ]
+right-r         [             ROOT Al] [.                                       ]
+shift      [           ROOT Al .] [                                        ]
+right-r         [             ROOT Al] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [              ROOT [] [This killing of a respected cleric will be causing us trouble for years to come . ]]
+shift      [         ROOT [ This] [killing of a respected cleric will be causing us trouble for years to come . ]]
+shift      [ ROOT [ This killing] [of a respected cleric will be causing us trouble for years to come . ]]
+
+process non-proj swap 6
+shift      [ROOT [ This killing of] [a respected cleric will be causing us trouble for years to come . ]]
+shift      [ROOT [ This killing of a] [respected cleric will be causing us trouble for years to come . ]]
+shift      [ROOT [ This killing of a respected] [cleric will be causing us trouble for years to come . ]]
+shift      [ROOT [ This killing of a respected cleric] [will be causing us trouble for years to come . ]]
+swap       [ROOT [ This killing of a cleric] [respected will be causing us trouble for years to come . ]]
+swap       [ROOT [ This killing of cleric] [a respected will be causing us trouble for years to come . ]]
+swap       [ROOT [ This killing cleric] [of a respected will be causing us trouble for years to come . ]]
+end process non-proj ...
+
+shift      [ROOT [ This killing cleric of] [a respected will be causing us trouble for years to come . ]]
+right-r         [ROOT [ This killing cleric] [a respected will be causing us trouble for years to come . ]]
+shift      [ROOT [ This killing cleric a] [respected will be causing us trouble for years to come . ]]
+right-r         [ROOT [ This killing cleric] [respected will be causing us trouble for years to come . ]]
+shift      [ROOT [ This killing cleric respected] [will be causing us trouble for years to come . ]]
+right-r         [ROOT [ This killing cleric] [will be causing us trouble for years to come . ]]
+right-r         [ ROOT [ This killing] [will be causing us trouble for years to come . ]]
+left-r          [      ROOT [ killing] [will be causing us trouble for years to come . ]]
+shift      [ ROOT [ killing will] [be causing us trouble for years to come . ]]
+shift      [ROOT [ killing will be] [causing us trouble for years to come . ]]
+shift      [ROOT [ killing will be causing] [us trouble for years to come . ]        ]
+shift      [ROOT [ killing will be causing us] [trouble for years to come . ]           ]
+right-r         [ROOT [ killing will be causing] [trouble for years to come . ]           ]
+shift      [ROOT [ killing will be causing trouble] [for years to come . ]                   ]
+right-r         [ROOT [ killing will be causing] [for years to come . ]                   ]
+
+process non-proj swap 13
+shift      [ROOT [ killing will be causing for] [years to come . ]                       ]
+shift      [ROOT [ killing will be causing for years] [to come . ]                             ]
+swap       [ROOT [ killing will be causing years] [for to come . ]                         ]
+end process non-proj ...
+
+shift      [ROOT [ killing will be causing years for] [to come . ]                             ]
+right-r         [ROOT [ killing will be causing years] [to come . ]                             ]
+
+process non-proj swap 15
+shift      [ROOT [ killing will be causing years to] [come . ]                                ]
+shift      [ROOT [ killing will be causing years to come] [. ]                                     ]
+swap       [ROOT [ killing will be causing years come] [to . ]                                  ]
+end process non-proj ...
+
+shift      [ROOT [ killing will be causing years come to] [. ]                                     ]
+right-r         [ROOT [ killing will be causing years come] [. ]                                     ]
+right-r         [ROOT [ killing will be causing years] [. ]                                     ]
+right-r         [ROOT [ killing will be causing] [. ]                                     ]
+shift      [ROOT [ killing will be causing .] []                                       ]
+right-r         [ROOT [ killing will be causing] []                                       ]
+shift      [ROOT [ killing will be causing ]] [                                        ]
+right-r         [ROOT [ killing will be causing] [                                        ]
+left-r          [ROOT [ killing will causing] [                                        ]
+left-r          [ROOT [ killing causing] [                                        ]
+left-r          [      ROOT [ causing] [                                        ]
+left-r          [        ROOT causing] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT DPA] [: Iraqi authorities announced that they had busted up 3 terrorist cells operating in Baghdad .]
+shift      [          ROOT DPA :] [Iraqi authorities announced that they had busted up 3 terrorist cells operating in Baghdad .]
+right-r         [            ROOT DPA] [Iraqi authorities announced that they had busted up 3 terrorist cells operating in Baghdad .]
+
+process non-proj swap 4
+shift      [      ROOT DPA Iraqi] [authorities announced that they had busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA Iraqi authorities] [announced that they had busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA Iraqi authorities announced] [that they had busted up 3 terrorist cells operating in Baghdad .]
+swap       [ROOT DPA Iraqi announced] [authorities that they had busted up 3 terrorist cells operating in Baghdad .]
+swap       [  ROOT DPA announced] [Iraqi authorities that they had busted up 3 terrorist cells operating in Baghdad .]
+end process non-proj ...
+
+
+process non-proj swap 3
+shift      [ROOT DPA announced Iraqi] [authorities that they had busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced Iraqi authorities] [that they had busted up 3 terrorist cells operating in Baghdad .]
+swap       [ROOT DPA announced authorities] [Iraqi that they had busted up 3 terrorist cells operating in Baghdad .]
+end process non-proj ...
+
+shift      [ROOT DPA announced authorities Iraqi] [that they had busted up 3 terrorist cells operating in Baghdad .]
+right-r         [ROOT DPA announced authorities] [that they had busted up 3 terrorist cells operating in Baghdad .]
+right-r         [  ROOT DPA announced] [that they had busted up 3 terrorist cells operating in Baghdad .]
+
+process non-proj swap 8
+shift      [ROOT DPA announced that] [they had busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced that they] [had busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced that they had] [busted up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced that they had busted] [up 3 terrorist cells operating in Baghdad .]
+swap       [ROOT DPA announced that they busted] [had up 3 terrorist cells operating in Baghdad .]
+swap       [ROOT DPA announced that busted] [they had up 3 terrorist cells operating in Baghdad .]
+swap       [ROOT DPA announced busted] [that they had up 3 terrorist cells operating in Baghdad .]
+end process non-proj ...
+
+shift      [ROOT DPA announced busted that] [they had up 3 terrorist cells operating in Baghdad .]
+right-r         [ROOT DPA announced busted] [they had up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced busted they] [had up 3 terrorist cells operating in Baghdad .]
+right-r         [ROOT DPA announced busted] [had up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced busted had] [up 3 terrorist cells operating in Baghdad .]
+right-r         [ROOT DPA announced busted] [up 3 terrorist cells operating in Baghdad .]
+shift      [ROOT DPA announced busted up] [3 terrorist cells operating in Baghdad .]
+right-r         [ROOT DPA announced busted] [3 terrorist cells operating in Baghdad .]
+
+process non-proj swap 12
+shift      [ROOT DPA announced busted 3] [terrorist cells operating in Baghdad .  ]
+shift      [ROOT DPA announced busted 3 terrorist] [cells operating in Baghdad .            ]
+shift      [ROOT DPA announced busted 3 terrorist cells] [operating in Baghdad .                  ]
+swap       [ROOT DPA announced busted 3 cells] [terrorist operating in Baghdad .        ]
+swap       [ROOT DPA announced busted cells] [3 terrorist operating in Baghdad .      ]
+end process non-proj ...
+
+shift      [ROOT DPA announced busted cells 3] [terrorist operating in Baghdad .        ]
+right-r         [ROOT DPA announced busted cells] [terrorist operating in Baghdad .        ]
+shift      [ROOT DPA announced busted cells terrorist] [operating in Baghdad .                  ]
+right-r         [ROOT DPA announced busted cells] [operating in Baghdad .                  ]
+shift      [ROOT DPA announced busted cells operating] [in Baghdad .                            ]
+
+process non-proj swap 15
+shift      [ROOT DPA announced busted cells operating in] [Baghdad .                               ]
+shift      [ROOT DPA announced busted cells operating in Baghdad] [.                                       ]
+swap       [ROOT DPA announced busted cells operating Baghdad] [in .                                    ]
+end process non-proj ...
+
+shift      [ROOT DPA announced busted cells operating Baghdad in] [.                                       ]
+right-r         [ROOT DPA announced busted cells operating Baghdad] [.                                       ]
+right-r         [ROOT DPA announced busted cells operating] [.                                       ]
+right-r         [ROOT DPA announced busted cells] [.                                       ]
+right-r         [ROOT DPA announced busted] [.                                       ]
+right-r         [  ROOT DPA announced] [.                                       ]
+right-r         [            ROOT DPA] [.                                       ]
+shift      [          ROOT DPA .] [                                        ]
+right-r         [            ROOT DPA] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT Two] [of them were being run by 2 officials of the Ministry of the Interior !]
+
+process non-proj swap 2
+shift      [         ROOT Two of] [them were being run by 2 officials of the Ministry of the Interior !]
+shift      [    ROOT Two of them] [were being run by 2 officials of the Ministry of the Interior !]
+swap       [       ROOT Two them] [of were being run by 2 officials of the Ministry of the Interior !]
+end process non-proj ...
+
+shift      [    ROOT Two them of] [were being run by 2 officials of the Ministry of the Interior !]
+right-r         [       ROOT Two them] [were being run by 2 officials of the Ministry of the Interior !]
+right-r         [            ROOT Two] [were being run by 2 officials of the Ministry of the Interior !]
+shift      [       ROOT Two were] [being run by 2 officials of the Ministry of the Interior !]
+shift      [ ROOT Two were being] [run by 2 officials of the Ministry of the Interior !]
+shift      [ROOT Two were being run] [by 2 officials of the Ministry of the Interior !]
+
+process non-proj swap 8
+shift      [ROOT Two were being run by] [2 officials of the Ministry of the Interior !]
+shift      [ROOT Two were being run by 2] [officials of the Ministry of the Interior !]
+shift      [ROOT Two were being run by 2 officials] [of the Ministry of the Interior !       ]
+swap       [ROOT Two were being run by officials] [2 of the Ministry of the Interior !     ]
+swap       [ROOT Two were being run officials] [by 2 of the Ministry of the Interior !  ]
+end process non-proj ...
+
+shift      [ROOT Two were being run officials by] [2 of the Ministry of the Interior !     ]
+right-r         [ROOT Two were being run officials] [2 of the Ministry of the Interior !     ]
+shift      [ROOT Two were being run officials 2] [of the Ministry of the Interior !       ]
+right-r         [ROOT Two were being run officials] [of the Ministry of the Interior !       ]
+
+process non-proj swap 11
+shift      [ROOT Two were being run officials of] [the Ministry of the Interior !          ]
+shift      [ROOT Two were being run officials of the] [Ministry of the Interior !              ]
+shift      [ROOT Two were being run officials of the Ministry] [of the Interior !                       ]
+swap       [ROOT Two were being run officials of Ministry] [the of the Interior !                   ]
+swap       [ROOT Two were being run officials Ministry] [of the of the Interior !                ]
+end process non-proj ...
+
+shift      [ROOT Two were being run officials Ministry of] [the of the Interior !                   ]
+right-r         [ROOT Two were being run officials Ministry] [the of the Interior !                   ]
+shift      [ROOT Two were being run officials Ministry the] [of the Interior !                       ]
+right-r         [ROOT Two were being run officials Ministry] [of the Interior !                       ]
+
+process non-proj swap 14
+shift      [ROOT Two were being run officials Ministry of] [the Interior !                          ]
+shift      [ROOT Two were being run officials Ministry of the] [Interior !                              ]
+shift      [ROOT Two were being run officials Ministry of the Interior] [!                                       ]
+swap       [ROOT Two were being run officials Ministry of Interior] [the !                                   ]
+swap       [ROOT Two were being run officials Ministry Interior] [of the !                                ]
+end process non-proj ...
+
+shift      [ROOT Two were being run officials Ministry Interior of] [the !                                   ]
+right-r         [ROOT Two were being run officials Ministry Interior] [the !                                   ]
+shift      [ROOT Two were being run officials Ministry Interior the] [!                                       ]
+right-r         [ROOT Two were being run officials Ministry Interior] [!                                       ]
+right-r         [ROOT Two were being run officials Ministry] [!                                       ]
+right-r         [ROOT Two were being run officials] [!                                       ]
+right-r         [ROOT Two were being run] [!                                       ]
+shift      [ROOT Two were being run !] [                                        ]
+right-r         [ROOT Two were being run] [                                        ]
+left-r          [   ROOT Two were run] [                                        ]
+left-r          [        ROOT Two run] [                                        ]
+left-r          [            ROOT run] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT The] [MoI in Iraq is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [        ROOT The MoI] [in Iraq is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+left-r          [            ROOT MoI] [in Iraq is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 3
+shift      [         ROOT MoI in] [Iraq is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [    ROOT MoI in Iraq] [is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [       ROOT MoI Iraq] [in is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+shift      [    ROOT MoI Iraq in] [is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [       ROOT MoI Iraq] [is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [            ROOT MoI] [is equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [         ROOT MoI is] [equivalent to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent] [to the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 9
+shift      [ROOT MoI is equivalent to] [the US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent to the] [US FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent to the US] [FBI , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent to the US FBI] [, so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent to the FBI] [US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent to FBI] [the US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent FBI] [to the US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent FBI to] [the US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent FBI] [the US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent FBI the] [US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent FBI] [US , so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent FBI US] [, so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent FBI] [, so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent] [, so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent ,] [so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent] [so this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 14
+shift      [ROOT MoI is equivalent so] [this would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent so this] [would be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent so this would] [be like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent so this would be] [like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent so this be] [would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent so be] [this would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be] [so this would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+
+process non-proj swap 12
+shift      [ROOT MoI is equivalent be so] [this would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be so this] [would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be this] [so would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+right-r         [ROOT MoI is equivalent be] [so would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 13
+shift      [ROOT MoI is equivalent be so] [would like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be so would] [like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be would] [so like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+right-r         [ROOT MoI is equivalent be] [so like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 16
+shift      [ROOT MoI is equivalent be so] [like having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be so like] [having J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be so like having] [J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be so having] [like J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having] [so like J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent be having so] [like J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having] [like J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having like] [J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having] [J. Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 21
+shift      [ROOT MoI is equivalent be having J.] [Edgar Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having J. Edgar] [Hoover unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having J. Edgar Hoover] [unwittingly employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having J. Edgar Hoover unwittingly] [employ at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having J. Edgar Hoover unwittingly employ] [at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having J. Edgar Hoover employ] [unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having J. Edgar employ] [Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having J. employ] [Edgar Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having employ] [J. Edgar Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent be having employ J.] [Edgar Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ J. Edgar] [Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ J.] [Hoover unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ J. Hoover] [unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ J.] [unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ] [unwittingly at a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ unwittingly] [at a high level members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ] [at a high level members of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 25
+shift      [ROOT MoI is equivalent be having employ at] [a high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ at a] [high level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ at a high] [level members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ at a high level] [members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having employ at a level] [high members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having employ at level] [a high members of the Weathermen bombers back in the 1960s .]
+swap       [ROOT MoI is equivalent be having employ level] [at a high members of the Weathermen bombers back in the 1960s .]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent be having employ level at] [a high members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ level] [a high members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ level a] [high members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ level] [high members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ level high] [members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ level] [members of the Weathermen bombers back in the 1960s .]
+right-r         [ROOT MoI is equivalent be having employ] [members of the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ members] [of the Weathermen bombers back in the 1960s .]
+
+process non-proj swap 30
+shift      [ROOT MoI is equivalent be having employ members of] [the Weathermen bombers back in the 1960s .]
+shift      [ROOT MoI is equivalent be having employ members of the] [Weathermen bombers back in the 1960s .  ]
+shift      [ROOT MoI is equivalent be having employ members of the Weathermen] [bombers back in the 1960s .             ]
+shift      [ROOT MoI is equivalent be having employ members of the Weathermen bombers] [back in the 1960s .                     ]
+swap       [ROOT MoI is equivalent be having employ members of the bombers] [Weathermen back in the 1960s .          ]
+swap       [ROOT MoI is equivalent be having employ members of bombers] [the Weathermen back in the 1960s .      ]
+swap       [ROOT MoI is equivalent be having employ members bombers] [of the Weathermen back in the 1960s .   ]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent be having employ members bombers of] [the Weathermen back in the 1960s .      ]
+right-r         [ROOT MoI is equivalent be having employ members bombers] [the Weathermen back in the 1960s .      ]
+shift      [ROOT MoI is equivalent be having employ members bombers the] [Weathermen back in the 1960s .          ]
+right-r         [ROOT MoI is equivalent be having employ members bombers] [Weathermen back in the 1960s .          ]
+shift      [ROOT MoI is equivalent be having employ members bombers Weathermen] [back in the 1960s .                     ]
+right-r         [ROOT MoI is equivalent be having employ members bombers] [back in the 1960s .                     ]
+right-r         [ROOT MoI is equivalent be having employ members] [back in the 1960s .                     ]
+right-r         [ROOT MoI is equivalent be having employ] [back in the 1960s .                     ]
+
+process non-proj swap 34
+shift      [ROOT MoI is equivalent be having employ back] [in the 1960s .                          ]
+shift      [ROOT MoI is equivalent be having employ back in] [the 1960s .                             ]
+shift      [ROOT MoI is equivalent be having employ back in the] [1960s .                                 ]
+shift      [ROOT MoI is equivalent be having employ back in the 1960s] [.                                       ]
+swap       [ROOT MoI is equivalent be having employ back in 1960s] [the .                                   ]
+swap       [ROOT MoI is equivalent be having employ back 1960s] [in the .                                ]
+swap       [ROOT MoI is equivalent be having employ 1960s] [back in the .                           ]
+end process non-proj ...
+
+shift      [ROOT MoI is equivalent be having employ 1960s back] [in the .                                ]
+right-r         [ROOT MoI is equivalent be having employ 1960s] [in the .                                ]
+shift      [ROOT MoI is equivalent be having employ 1960s in] [the .                                   ]
+right-r         [ROOT MoI is equivalent be having employ 1960s] [the .                                   ]
+shift      [ROOT MoI is equivalent be having employ 1960s the] [.                                       ]
+right-r         [ROOT MoI is equivalent be having employ 1960s] [.                                       ]
+right-r         [ROOT MoI is equivalent be having employ] [.                                       ]
+right-r         [ROOT MoI is equivalent be having] [.                                       ]
+right-r         [ROOT MoI is equivalent be] [.                                       ]
+right-r         [ROOT MoI is equivalent] [.                                       ]
+shift      [ROOT MoI is equivalent .] [                                        ]
+right-r         [ROOT MoI is equivalent] [                                        ]
+left-r          [ ROOT MoI equivalent] [                                        ]
+left-r          [     ROOT equivalent] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT The] [third was being run by the head of an investment firm .]
+shift      [      ROOT The third] [was being run by the head of an investment firm .]
+left-r          [          ROOT third] [was being run by the head of an investment firm .]
+shift      [      ROOT third was] [being run by the head of an investment firm .]
+shift      [ROOT third was being] [run by the head of an investment firm . ]
+shift      [ROOT third was being run] [by the head of an investment firm .     ]
+
+process non-proj swap 7
+shift      [ROOT third was being run by] [the head of an investment firm .        ]
+shift      [ROOT third was being run by the] [head of an investment firm .            ]
+shift      [ROOT third was being run by the head] [of an investment firm .                 ]
+swap       [ROOT third was being run by head] [the of an investment firm .             ]
+swap       [ROOT third was being run head] [by the of an investment firm .          ]
+end process non-proj ...
+
+shift      [ROOT third was being run head by] [the of an investment firm .             ]
+right-r         [ROOT third was being run head] [the of an investment firm .             ]
+shift      [ROOT third was being run head the] [of an investment firm .                 ]
+right-r         [ROOT third was being run head] [of an investment firm .                 ]
+
+process non-proj swap 11
+shift      [ROOT third was being run head of] [an investment firm .                    ]
+shift      [ROOT third was being run head of an] [investment firm .                       ]
+shift      [ROOT third was being run head of an investment] [firm .                                  ]
+shift      [ROOT third was being run head of an investment firm] [.                                       ]
+swap       [ROOT third was being run head of an firm] [investment .                            ]
+swap       [ROOT third was being run head of firm] [an investment .                         ]
+swap       [ROOT third was being run head firm] [of an investment .                      ]
+end process non-proj ...
+
+shift      [ROOT third was being run head firm of] [an investment .                         ]
+right-r         [ROOT third was being run head firm] [an investment .                         ]
+shift      [ROOT third was being run head firm an] [investment .                            ]
+right-r         [ROOT third was being run head firm] [investment .                            ]
+shift      [ROOT third was being run head firm investment] [.                                       ]
+right-r         [ROOT third was being run head firm] [.                                       ]
+right-r         [ROOT third was being run head] [.                                       ]
+right-r         [ROOT third was being run] [.                                       ]
+shift      [ROOT third was being run .] [                                        ]
+right-r         [ROOT third was being run] [                                        ]
+left-r          [  ROOT third was run] [                                        ]
+left-r          [      ROOT third run] [                                        ]
+left-r          [            ROOT run] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT You] [wonder if he was manipulating the market with his bombing targets .]
+shift      [     ROOT You wonder] [if he was manipulating the market with his bombing targets .]
+left-r          [         ROOT wonder] [if he was manipulating the market with his bombing targets .]
+
+process non-proj swap 5
+shift      [      ROOT wonder if] [he was manipulating the market with his bombing targets .]
+shift      [   ROOT wonder if he] [was manipulating the market with his bombing targets .]
+shift      [ROOT wonder if he was] [manipulating the market with his bombing targets .]
+shift      [ROOT wonder if he was manipulating] [the market with his bombing targets .   ]
+swap       [ROOT wonder if he manipulating] [was the market with his bombing targets .]
+swap       [ROOT wonder if manipulating] [he was the market with his bombing targets .]
+swap       [ROOT wonder manipulating] [if he was the market with his bombing targets .]
+end process non-proj ...
+
+shift      [ROOT wonder manipulating if] [he was the market with his bombing targets .]
+right-r         [ROOT wonder manipulating] [he was the market with his bombing targets .]
+shift      [ROOT wonder manipulating he] [was the market with his bombing targets .]
+right-r         [ROOT wonder manipulating] [was the market with his bombing targets .]
+shift      [ROOT wonder manipulating was] [the market with his bombing targets .   ]
+right-r         [ROOT wonder manipulating] [the market with his bombing targets .   ]
+
+process non-proj swap 7
+shift      [ROOT wonder manipulating the] [market with his bombing targets .       ]
+shift      [ROOT wonder manipulating the market] [with his bombing targets .              ]
+swap       [ROOT wonder manipulating market] [the with his bombing targets .          ]
+end process non-proj ...
+
+shift      [ROOT wonder manipulating market the] [with his bombing targets .              ]
+right-r         [ROOT wonder manipulating market] [with his bombing targets .              ]
+right-r         [ROOT wonder manipulating] [with his bombing targets .              ]
+
+process non-proj swap 11
+shift      [ROOT wonder manipulating with] [his bombing targets .                   ]
+shift      [ROOT wonder manipulating with his] [bombing targets .                       ]
+shift      [ROOT wonder manipulating with his bombing] [targets .                               ]
+shift      [ROOT wonder manipulating with his bombing targets] [.                                       ]
+swap       [ROOT wonder manipulating with his targets] [bombing .                               ]
+swap       [ROOT wonder manipulating with targets] [his bombing .                           ]
+swap       [ROOT wonder manipulating targets] [with his bombing .                      ]
+end process non-proj ...
+
+shift      [ROOT wonder manipulating targets with] [his bombing .                           ]
+right-r         [ROOT wonder manipulating targets] [his bombing .                           ]
+shift      [ROOT wonder manipulating targets his] [bombing .                               ]
+right-r         [ROOT wonder manipulating targets] [bombing .                               ]
+shift      [ROOT wonder manipulating targets bombing] [.                                       ]
+right-r         [ROOT wonder manipulating targets] [.                                       ]
+right-r         [ROOT wonder manipulating] [.                                       ]
+right-r         [         ROOT wonder] [.                                       ]
+shift      [       ROOT wonder .] [                                        ]
+right-r         [         ROOT wonder] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT The] [cells were operating in the Ghazaliyah and al - Jihad districts of the capital .]
+shift      [      ROOT The cells] [were operating in the Ghazaliyah and al - Jihad districts of the capital .]
+left-r          [          ROOT cells] [were operating in the Ghazaliyah and al - Jihad districts of the capital .]
+shift      [     ROOT cells were] [operating in the Ghazaliyah and al - Jihad districts of the capital .]
+shift      [ROOT cells were operating] [in the Ghazaliyah and al - Jihad districts of the capital .]
+
+process non-proj swap 11
+shift      [ROOT cells were operating in] [the Ghazaliyah and al - Jihad districts of the capital .]
+shift      [ROOT cells were operating in the] [Ghazaliyah and al - Jihad districts of the capital .]
+shift      [ROOT cells were operating in the Ghazaliyah] [and al - Jihad districts of the capital .]
+shift      [ROOT cells were operating in the Ghazaliyah and] [al - Jihad districts of the capital .   ]
+shift      [ROOT cells were operating in the Ghazaliyah and al] [- Jihad districts of the capital .      ]
+shift      [ROOT cells were operating in the Ghazaliyah and al -] [Jihad districts of the capital .        ]
+shift      [ROOT cells were operating in the Ghazaliyah and al - Jihad] [districts of the capital .              ]
+shift      [ROOT cells were operating in the Ghazaliyah and al - Jihad districts] [of the capital .                        ]
+swap       [ROOT cells were operating in the Ghazaliyah and al - districts] [Jihad of the capital .                  ]
+swap       [ROOT cells were operating in the Ghazaliyah and al districts] [- Jihad of the capital .                ]
+swap       [ROOT cells were operating in the Ghazaliyah and districts] [al - Jihad of the capital .             ]
+swap       [ROOT cells were operating in the Ghazaliyah districts] [and al - Jihad of the capital .         ]
+swap       [ROOT cells were operating in the districts] [Ghazaliyah and al - Jihad of the capital .]
+swap       [ROOT cells were operating in districts] [the Ghazaliyah and al - Jihad of the capital .]
+swap       [ROOT cells were operating districts] [in the Ghazaliyah and al - Jihad of the capital .]
+end process non-proj ...
+
+shift      [ROOT cells were operating districts in] [the Ghazaliyah and al - Jihad of the capital .]
+right-r         [ROOT cells were operating districts] [the Ghazaliyah and al - Jihad of the capital .]
+shift      [ROOT cells were operating districts the] [Ghazaliyah and al - Jihad of the capital .]
+right-r         [ROOT cells were operating districts] [Ghazaliyah and al - Jihad of the capital .]
+shift      [ROOT cells were operating districts Ghazaliyah] [and al - Jihad of the capital .         ]
+
+process non-proj swap 10
+shift      [ROOT cells were operating districts Ghazaliyah and] [al - Jihad of the capital .             ]
+shift      [ROOT cells were operating districts Ghazaliyah and al] [- Jihad of the capital .                ]
+shift      [ROOT cells were operating districts Ghazaliyah and al -] [Jihad of the capital .                  ]
+shift      [ROOT cells were operating districts Ghazaliyah and al - Jihad] [of the capital .                        ]
+swap       [ROOT cells were operating districts Ghazaliyah and al Jihad] [- of the capital .                      ]
+swap       [ROOT cells were operating districts Ghazaliyah and Jihad] [al - of the capital .                   ]
+swap       [ROOT cells were operating districts Ghazaliyah Jihad] [and al - of the capital .               ]
+end process non-proj ...
+
+shift      [ROOT cells were operating districts Ghazaliyah Jihad and] [al - of the capital .                   ]
+right-r         [ROOT cells were operating districts Ghazaliyah Jihad] [al - of the capital .                   ]
+shift      [ROOT cells were operating districts Ghazaliyah Jihad al] [- of the capital .                      ]
+right-r         [ROOT cells were operating districts Ghazaliyah Jihad] [- of the capital .                      ]
+shift      [ROOT cells were operating districts Ghazaliyah Jihad -] [of the capital .                        ]
+right-r         [ROOT cells were operating districts Ghazaliyah Jihad] [of the capital .                        ]
+right-r         [ROOT cells were operating districts Ghazaliyah] [of the capital .                        ]
+right-r         [ROOT cells were operating districts] [of the capital .                        ]
+
+process non-proj swap 14
+shift      [ROOT cells were operating districts of] [the capital .                           ]
+shift      [ROOT cells were operating districts of the] [capital .                               ]
+shift      [ROOT cells were operating districts of the capital] [.                                       ]
+swap       [ROOT cells were operating districts of capital] [the .                                   ]
+swap       [ROOT cells were operating districts capital] [of the .                                ]
+end process non-proj ...
+
+shift      [ROOT cells were operating districts capital of] [the .                                   ]
+right-r         [ROOT cells were operating districts capital] [the .                                   ]
+shift      [ROOT cells were operating districts capital the] [.                                       ]
+right-r         [ROOT cells were operating districts capital] [.                                       ]
+right-r         [ROOT cells were operating districts] [.                                       ]
+right-r         [ROOT cells were operating] [.                                       ]
+shift      [ROOT cells were operating .] [                                        ]
+right-r         [ROOT cells were operating] [                                        ]
+left-r          [ROOT cells operating] [                                        ]
+left-r          [      ROOT operating] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [       ROOT Although] [the announcement was probably made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [   ROOT Although the] [announcement was probably made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although the announcement] [was probably made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+left-r          [ROOT Although announcement] [was probably made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was] [probably made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably] [made to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made] [to show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 7
+shift      [ROOT Although announcement was probably made to] [show progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made to show] [progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+swap       [ROOT Although announcement was probably made show] [to progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT Although announcement was probably made show to] [progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show] [progress in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made show progress] [in identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 10
+shift      [ROOT Although announcement was probably made show progress in] [identifying and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made show progress in identifying] [and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+swap       [ROOT Although announcement was probably made show progress identifying] [in and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT Although announcement was probably made show progress identifying in] [and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying] [and breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 12
+shift      [ROOT Although announcement was probably made show progress identifying and] [breaking up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made show progress identifying and breaking] [up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+swap       [ROOT Although announcement was probably made show progress identifying breaking] [and up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT Although announcement was probably made show progress identifying breaking and] [up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying breaking] [up terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made show progress identifying breaking up] [terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying breaking] [terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying] [terror cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 15
+shift      [ROOT Although announcement was probably made show progress identifying terror] [cells , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT Although announcement was probably made show progress identifying terror cells] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+swap       [ROOT Although announcement was probably made show progress identifying cells] [terror , I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT Although announcement was probably made show progress identifying cells terror] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying cells] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress identifying] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show progress] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made show] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT Although announcement was probably made] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+left-r          [ROOT Although announcement was made] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+left-r          [ROOT Although announcement made] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+left-r          [  ROOT Although made] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+left-r          [           ROOT made] [, I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [         ROOT made ,] [I do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [       ROOT made , I] [do n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [    ROOT made , I do] [n't find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't] [find the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find] [the news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 22
+shift      [ROOT made , I do n't find the] [news that the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find the news] [that the Baathists continue to penetrate the Iraqi government very hopeful .]
+swap       [ROOT made , I do n't find news] [the that the Baathists continue to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find news the] [that the Baathists continue to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT made , I do n't find news] [that the Baathists continue to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 26
+shift      [ROOT made , I do n't find news that] [the Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find news that the] [Baathists continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find news that the Baathists] [continue to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find news that the Baathists continue] [to penetrate the Iraqi government very hopeful .]
+swap       [ROOT made , I do n't find news that the continue] [Baathists to penetrate the Iraqi government very hopeful .]
+swap       [ROOT made , I do n't find news that continue] [the Baathists to penetrate the Iraqi government very hopeful .]
+swap       [ROOT made , I do n't find news continue] [that the Baathists to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find news continue that] [the Baathists to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT made , I do n't find news continue] [the Baathists to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 25
+shift      [ROOT made , I do n't find news continue the] [Baathists to penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find news continue the Baathists] [to penetrate the Iraqi government very hopeful .]
+swap       [ROOT made , I do n't find news continue Baathists] [the to penetrate the Iraqi government very hopeful .]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find news continue Baathists the] [to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT made , I do n't find news continue Baathists] [to penetrate the Iraqi government very hopeful .]
+right-r         [ROOT made , I do n't find news continue] [to penetrate the Iraqi government very hopeful .]
+
+process non-proj swap 28
+shift      [ROOT made , I do n't find news continue to] [penetrate the Iraqi government very hopeful .]
+shift      [ROOT made , I do n't find news continue to penetrate] [the Iraqi government very hopeful .     ]
+swap       [ROOT made , I do n't find news continue penetrate] [to the Iraqi government very hopeful .  ]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find news continue penetrate to] [the Iraqi government very hopeful .     ]
+right-r         [ROOT made , I do n't find news continue penetrate] [the Iraqi government very hopeful .     ]
+
+process non-proj swap 31
+shift      [ROOT made , I do n't find news continue penetrate the] [Iraqi government very hopeful .         ]
+shift      [ROOT made , I do n't find news continue penetrate the Iraqi] [government very hopeful .               ]
+shift      [ROOT made , I do n't find news continue penetrate the Iraqi government] [very hopeful .                          ]
+swap       [ROOT made , I do n't find news continue penetrate the government] [Iraqi very hopeful .                    ]
+swap       [ROOT made , I do n't find news continue penetrate government] [the Iraqi very hopeful .                ]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find news continue penetrate government the] [Iraqi very hopeful .                    ]
+right-r         [ROOT made , I do n't find news continue penetrate government] [Iraqi very hopeful .                    ]
+shift      [ROOT made , I do n't find news continue penetrate government Iraqi] [very hopeful .                          ]
+right-r         [ROOT made , I do n't find news continue penetrate government] [very hopeful .                          ]
+right-r         [ROOT made , I do n't find news continue penetrate] [very hopeful .                          ]
+right-r         [ROOT made , I do n't find news continue] [very hopeful .                          ]
+right-r         [ROOT made , I do n't find news] [very hopeful .                          ]
+right-r         [ROOT made , I do n't find] [very hopeful .                          ]
+
+process non-proj swap 33
+shift      [ROOT made , I do n't find very] [hopeful .                               ]
+shift      [ROOT made , I do n't find very hopeful] [.                                       ]
+swap       [ROOT made , I do n't find hopeful] [very .                                  ]
+end process non-proj ...
+
+shift      [ROOT made , I do n't find hopeful very] [.                                       ]
+right-r         [ROOT made , I do n't find hopeful] [.                                       ]
+right-r         [ROOT made , I do n't find] [.                                       ]
+shift      [ROOT made , I do n't find .] [                                        ]
+right-r         [ROOT made , I do n't find] [                                        ]
+left-r          [ROOT made , I do find] [                                        ]
+left-r          [  ROOT made , I find] [                                        ]
+left-r          [    ROOT made , find] [                                        ]
+left-r          [      ROOT made find] [                                        ]
+left-r          [           ROOT find] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [             ROOT It] [reminds me too much of the ARVN officers who were secretly working for the other side in Vietnam .]
+shift      [     ROOT It reminds] [me too much of the ARVN officers who were secretly working for the other side in Vietnam .]
+left-r          [        ROOT reminds] [me too much of the ARVN officers who were secretly working for the other side in Vietnam .]
+shift      [     ROOT reminds me] [too much of the ARVN officers who were secretly working for the other side in Vietnam .]
+right-r         [        ROOT reminds] [too much of the ARVN officers who were secretly working for the other side in Vietnam .]
+
+process non-proj swap 4
+shift      [    ROOT reminds too] [much of the ARVN officers who were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds too much] [of the ARVN officers who were secretly working for the other side in Vietnam .]
+swap       [   ROOT reminds much] [too of the ARVN officers who were secretly working for the other side in Vietnam .]
+end process non-proj ...
+
+shift      [ROOT reminds much too] [of the ARVN officers who were secretly working for the other side in Vietnam .]
+right-r         [   ROOT reminds much] [of the ARVN officers who were secretly working for the other side in Vietnam .]
+right-r         [        ROOT reminds] [of the ARVN officers who were secretly working for the other side in Vietnam .]
+
+process non-proj swap 8
+shift      [     ROOT reminds of] [the ARVN officers who were secretly working for the other side in Vietnam .]
+shift      [ ROOT reminds of the] [ARVN officers who were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds of the ARVN] [officers who were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds of the ARVN officers] [who were secretly working for the other side in Vietnam .]
+swap       [ROOT reminds of the officers] [ARVN who were secretly working for the other side in Vietnam .]
+swap       [ROOT reminds of officers] [the ARVN who were secretly working for the other side in Vietnam .]
+swap       [ROOT reminds officers] [of the ARVN who were secretly working for the other side in Vietnam .]
+end process non-proj ...
+
+shift      [ROOT reminds officers of] [the ARVN who were secretly working for the other side in Vietnam .]
+right-r         [ROOT reminds officers] [the ARVN who were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds officers the] [ARVN who were secretly working for the other side in Vietnam .]
+right-r         [ROOT reminds officers] [ARVN who were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds officers ARVN] [who were secretly working for the other side in Vietnam .]
+right-r         [ROOT reminds officers] [who were secretly working for the other side in Vietnam .]
+
+process non-proj swap 12
+shift      [ROOT reminds officers who] [were secretly working for the other side in Vietnam .]
+shift      [ROOT reminds officers who were] [secretly working for the other side in Vietnam .]
+shift      [ROOT reminds officers who were secretly] [working for the other side in Vietnam . ]
+shift      [ROOT reminds officers who were secretly working] [for the other side in Vietnam .         ]
+swap       [ROOT reminds officers who were working] [secretly for the other side in Vietnam .]
+swap       [ROOT reminds officers who working] [were secretly for the other side in Vietnam .]
+swap       [ROOT reminds officers working] [who were secretly for the other side in Vietnam .]
+end process non-proj ...
+
+shift      [ROOT reminds officers working who] [were secretly for the other side in Vietnam .]
+right-r         [ROOT reminds officers working] [were secretly for the other side in Vietnam .]
+shift      [ROOT reminds officers working were] [secretly for the other side in Vietnam .]
+right-r         [ROOT reminds officers working] [secretly for the other side in Vietnam .]
+shift      [ROOT reminds officers working secretly] [for the other side in Vietnam .         ]
+right-r         [ROOT reminds officers working] [for the other side in Vietnam .         ]
+
+process non-proj swap 16
+shift      [ROOT reminds officers working for] [the other side in Vietnam .             ]
+shift      [ROOT reminds officers working for the] [other side in Vietnam .                 ]
+shift      [ROOT reminds officers working for the other] [side in Vietnam .                       ]
+shift      [ROOT reminds officers working for the other side] [in Vietnam .                            ]
+swap       [ROOT reminds officers working for the side] [other in Vietnam .                      ]
+swap       [ROOT reminds officers working for side] [the other in Vietnam .                  ]
+swap       [ROOT reminds officers working side] [for the other in Vietnam .              ]
+end process non-proj ...
+
+shift      [ROOT reminds officers working side for] [the other in Vietnam .                  ]
+right-r         [ROOT reminds officers working side] [the other in Vietnam .                  ]
+shift      [ROOT reminds officers working side the] [other in Vietnam .                      ]
+right-r         [ROOT reminds officers working side] [other in Vietnam .                      ]
+shift      [ROOT reminds officers working side other] [in Vietnam .                            ]
+right-r         [ROOT reminds officers working side] [in Vietnam .                            ]
+right-r         [ROOT reminds officers working] [in Vietnam .                            ]
+
+process non-proj swap 18
+shift      [ROOT reminds officers working in] [Vietnam .                               ]
+shift      [ROOT reminds officers working in Vietnam] [.                                       ]
+swap       [ROOT reminds officers working Vietnam] [in .                                    ]
+end process non-proj ...
+
+shift      [ROOT reminds officers working Vietnam in] [.                                       ]
+right-r         [ROOT reminds officers working Vietnam] [.                                       ]
+right-r         [ROOT reminds officers working] [.                                       ]
+right-r         [ROOT reminds officers] [.                                       ]
+right-r         [        ROOT reminds] [.                                       ]
+shift      [      ROOT reminds .] [                                        ]
+right-r         [        ROOT reminds] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [             ROOT Al] [- Zaman : Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [           ROOT Al -] [Zaman : Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+right-r         [             ROOT Al] [Zaman : Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [       ROOT Al Zaman] [: Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+right-r         [             ROOT Al] [: Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [           ROOT Al :] [Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+right-r         [             ROOT Al] [Guerrillas killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+
+process non-proj swap 5
+shift      [  ROOT Al Guerrillas] [killed a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [ROOT Al Guerrillas killed] [a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+swap       [      ROOT Al killed] [Guerrillas a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+end process non-proj ...
+
+shift      [ROOT Al killed Guerrillas] [a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+right-r         [      ROOT Al killed] [a member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+
+process non-proj swap 7
+shift      [    ROOT Al killed a] [member of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [ROOT Al killed a member] [of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+swap       [ROOT Al killed member] [a of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+end process non-proj ...
+
+shift      [ROOT Al killed member a] [of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+right-r         [ROOT Al killed member] [of the Kurdistan Democratic Party after kidnapping him in Mosul .]
+
+process non-proj swap 12
+shift      [ROOT Al killed member of] [the Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [ROOT Al killed member of the] [Kurdistan Democratic Party after kidnapping him in Mosul .]
+shift      [ROOT Al killed member of the Kurdistan] [Democratic Party after kidnapping him in Mosul .]
+shift      [ROOT Al killed member of the Kurdistan Democratic] [Party after kidnapping him in Mosul .   ]
+shift      [ROOT Al killed member of the Kurdistan Democratic Party] [after kidnapping him in Mosul .         ]
+swap       [ROOT Al killed member of the Kurdistan Party] [Democratic after kidnapping him in Mosul .]
+swap       [ROOT Al killed member of the Party] [Kurdistan Democratic after kidnapping him in Mosul .]
+swap       [ROOT Al killed member of Party] [the Kurdistan Democratic after kidnapping him in Mosul .]
+swap       [ROOT Al killed member Party] [of the Kurdistan Democratic after kidnapping him in Mosul .]
+end process non-proj ...
+
+shift      [ROOT Al killed member Party of] [the Kurdistan Democratic after kidnapping him in Mosul .]
+right-r         [ROOT Al killed member Party] [the Kurdistan Democratic after kidnapping him in Mosul .]
+shift      [ROOT Al killed member Party the] [Kurdistan Democratic after kidnapping him in Mosul .]
+right-r         [ROOT Al killed member Party] [Kurdistan Democratic after kidnapping him in Mosul .]
+shift      [ROOT Al killed member Party Kurdistan] [Democratic after kidnapping him in Mosul .]
+right-r         [ROOT Al killed member Party] [Democratic after kidnapping him in Mosul .]
+shift      [ROOT Al killed member Party Democratic] [after kidnapping him in Mosul .         ]
+right-r         [ROOT Al killed member Party] [after kidnapping him in Mosul .         ]
+right-r         [ROOT Al killed member] [after kidnapping him in Mosul .         ]
+right-r         [      ROOT Al killed] [after kidnapping him in Mosul .         ]
+
+process non-proj swap 14
+shift      [ROOT Al killed after] [kidnapping him in Mosul .               ]
+shift      [ROOT Al killed after kidnapping] [him in Mosul .                          ]
+swap       [ROOT Al killed kidnapping] [after him in Mosul .                    ]
+end process non-proj ...
+
+shift      [ROOT Al killed kidnapping after] [him in Mosul .                          ]
+right-r         [ROOT Al killed kidnapping] [him in Mosul .                          ]
+shift      [ROOT Al killed kidnapping him] [in Mosul .                              ]
+right-r         [ROOT Al killed kidnapping] [in Mosul .                              ]
+
+process non-proj swap 17
+shift      [ROOT Al killed kidnapping in] [Mosul .                                 ]
+shift      [ROOT Al killed kidnapping in Mosul] [.                                       ]
+swap       [ROOT Al killed kidnapping Mosul] [in .                                    ]
+end process non-proj ...
+
+shift      [ROOT Al killed kidnapping Mosul in] [.                                       ]
+right-r         [ROOT Al killed kidnapping Mosul] [.                                       ]
+right-r         [ROOT Al killed kidnapping] [.                                       ]
+right-r         [      ROOT Al killed] [.                                       ]
+right-r         [             ROOT Al] [.                                       ]
+shift      [           ROOT Al .] [                                        ]
+right-r         [             ROOT Al] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT The] [police commander of Ninevah Province announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [     ROOT The police] [commander of Ninevah Province announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT The police commander] [of Ninevah Province announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+
+process non-proj swap 5
+shift      [ROOT The police commander of] [Ninevah Province announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT The police commander of Ninevah] [Province announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT The police commander of Ninevah Province] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT The police commander of Province] [Ninevah announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT The police commander Province] [of Ninevah announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+end process non-proj ...
+
+shift      [ROOT The police commander Province of] [Ninevah announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT The police commander Province] [Ninevah announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT The police commander Province Ninevah] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT The police commander Province] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT The police commander] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+left-r          [  ROOT The commander] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+left-r          [      ROOT commander] [announced that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT commander announced] [that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+left-r          [      ROOT announced] [that bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+
+process non-proj swap 10
+shift      [ ROOT announced that] [bombings had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced that bombings] [had declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced that bombings had] [declined 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced that bombings had declined] [80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT announced that bombings declined] [had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT announced that declined] [bombings had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT announced declined] [that bombings had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+end process non-proj ...
+
+shift      [ROOT announced declined that] [bombings had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [bombings had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined bombings] [had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [had 80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined had] [80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [80 percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+
+process non-proj swap 12
+shift      [ROOT announced declined 80] [percent in Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined 80 percent] [in Mosul , whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT announced declined percent] [80 in Mosul , whereas there had been a big jump in the number of kidnappings .]
+end process non-proj ...
+
+shift      [ROOT announced declined percent 80] [in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined percent] [in Mosul , whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [in Mosul , whereas there had been a big jump in the number of kidnappings .]
+
+process non-proj swap 14
+shift      [ROOT announced declined in] [Mosul , whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined in Mosul] [, whereas there had been a big jump in the number of kidnappings .]
+swap       [ROOT announced declined Mosul] [in , whereas there had been a big jump in the number of kidnappings .]
+end process non-proj ...
+
+shift      [ROOT announced declined Mosul in] [, whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined Mosul] [, whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [, whereas there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined ,] [whereas there had been a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined] [whereas there had been a big jump in the number of kidnappings .]
+
+process non-proj swap 19
+shift      [ROOT announced declined whereas] [there had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined whereas there] [had been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined whereas there had] [been a big jump in the number of kidnappings .]
+shift      [ROOT announced declined whereas there had been] [a big jump in the number of kidnappings .]
+swap       [ROOT announced declined whereas there been] [had a big jump in the number of kidnappings .]
+swap       [ROOT announced declined whereas been] [there had a big jump in the number of kidnappings .]
+swap       [ROOT announced declined been] [whereas there had a big jump in the number of kidnappings .]
+end process non-proj ...
+
+shift      [ROOT announced declined been whereas] [there had a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined been] [there had a big jump in the number of kidnappings .]
+shift      [ROOT announced declined been there] [had a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined been] [had a big jump in the number of kidnappings .]
+shift      [ROOT announced declined been had] [a big jump in the number of kidnappings .]
+right-r         [ROOT announced declined been] [a big jump in the number of kidnappings .]
+
+process non-proj swap 22
+shift      [ROOT announced declined been a] [big jump in the number of kidnappings . ]
+shift      [ROOT announced declined been a big] [jump in the number of kidnappings .     ]
+shift      [ROOT announced declined been a big jump] [in the number of kidnappings .          ]
+swap       [ROOT announced declined been a jump] [big in the number of kidnappings .      ]
+swap       [ROOT announced declined been jump] [a big in the number of kidnappings .    ]
+end process non-proj ...
+
+shift      [ROOT announced declined been jump a] [big in the number of kidnappings .      ]
+right-r         [ROOT announced declined been jump] [big in the number of kidnappings .      ]
+shift      [ROOT announced declined been jump big] [in the number of kidnappings .          ]
+right-r         [ROOT announced declined been jump] [in the number of kidnappings .          ]
+
+process non-proj swap 25
+shift      [ROOT announced declined been jump in] [the number of kidnappings .             ]
+shift      [ROOT announced declined been jump in the] [number of kidnappings .                 ]
+shift      [ROOT announced declined been jump in the number] [of kidnappings .                        ]
+swap       [ROOT announced declined been jump in number] [the of kidnappings .                    ]
+swap       [ROOT announced declined been jump number] [in the of kidnappings .                 ]
+end process non-proj ...
+
+shift      [ROOT announced declined been jump number in] [the of kidnappings .                    ]
+right-r         [ROOT announced declined been jump number] [the of kidnappings .                    ]
+shift      [ROOT announced declined been jump number the] [of kidnappings .                        ]
+right-r         [ROOT announced declined been jump number] [of kidnappings .                        ]
+
+process non-proj swap 27
+shift      [ROOT announced declined been jump number of] [kidnappings .                           ]
+shift      [ROOT announced declined been jump number of kidnappings] [.                                       ]
+swap       [ROOT announced declined been jump number kidnappings] [of .                                    ]
+end process non-proj ...
+
+shift      [ROOT announced declined been jump number kidnappings of] [.                                       ]
+right-r         [ROOT announced declined been jump number kidnappings] [.                                       ]
+right-r         [ROOT announced declined been jump number] [.                                       ]
+right-r         [ROOT announced declined been jump] [.                                       ]
+right-r         [ROOT announced declined been] [.                                       ]
+right-r         [ROOT announced declined] [.                                       ]
+right-r         [      ROOT announced] [.                                       ]
+shift      [    ROOT announced .] [                                        ]
+right-r         [      ROOT announced] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [             ROOT On] [Wednesday guerrillas had kidnapped a cosmetic surgeon and his wife while they were on their way home .]
+shift      [   ROOT On Wednesday] [guerrillas had kidnapped a cosmetic surgeon and his wife while they were on their way home .]
+left-r          [      ROOT Wednesday] [guerrillas had kidnapped a cosmetic surgeon and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas] [had kidnapped a cosmetic surgeon and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had] [kidnapped a cosmetic surgeon and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped] [a cosmetic surgeon and his wife while they were on their way home .]
+
+process non-proj swap 7
+shift      [ROOT Wednesday guerrillas had kidnapped a] [cosmetic surgeon and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped a cosmetic] [surgeon and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped a cosmetic surgeon] [and his wife while they were on their way home .]
+swap       [ROOT Wednesday guerrillas had kidnapped a surgeon] [cosmetic and his wife while they were on their way home .]
+swap       [ROOT Wednesday guerrillas had kidnapped surgeon] [a cosmetic and his wife while they were on their way home .]
+end process non-proj ...
+
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon a] [cosmetic and his wife while they were on their way home .]
+right-r         [ROOT Wednesday guerrillas had kidnapped surgeon] [cosmetic and his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon cosmetic] [and his wife while they were on their way home .]
+right-r         [ROOT Wednesday guerrillas had kidnapped surgeon] [and his wife while they were on their way home .]
+
+process non-proj swap 10
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon and] [his wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon and his] [wife while they were on their way home .]
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon and his wife] [while they were on their way home .     ]
+swap       [ROOT Wednesday guerrillas had kidnapped surgeon and wife] [his while they were on their way home . ]
+swap       [ROOT Wednesday guerrillas had kidnapped surgeon wife] [and his while they were on their way home .]
+end process non-proj ...
+
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon wife and] [his while they were on their way home . ]
+right-r         [ROOT Wednesday guerrillas had kidnapped surgeon wife] [his while they were on their way home . ]
+shift      [ROOT Wednesday guerrillas had kidnapped surgeon wife his] [while they were on their way home .     ]
+right-r         [ROOT Wednesday guerrillas had kidnapped surgeon wife] [while they were on their way home .     ]
+right-r         [ROOT Wednesday guerrillas had kidnapped surgeon] [while they were on their way home .     ]
+right-r         [ROOT Wednesday guerrillas had kidnapped] [while they were on their way home .     ]
+
+process non-proj swap 16
+shift      [ROOT Wednesday guerrillas had kidnapped while] [they were on their way home .           ]
+shift      [ROOT Wednesday guerrillas had kidnapped while they] [were on their way home .                ]
+shift      [ROOT Wednesday guerrillas had kidnapped while they were] [on their way home .                     ]
+shift      [ROOT Wednesday guerrillas had kidnapped while they were on] [their way home .                        ]
+shift      [ROOT Wednesday guerrillas had kidnapped while they were on their] [way home .                              ]
+shift      [ROOT Wednesday guerrillas had kidnapped while they were on their way] [home .                                  ]
+swap       [ROOT Wednesday guerrillas had kidnapped while they were on way] [their home .                            ]
+swap       [ROOT Wednesday guerrillas had kidnapped while they were way] [on their home .                         ]
+swap       [ROOT Wednesday guerrillas had kidnapped while they way] [were on their home .                    ]
+swap       [ROOT Wednesday guerrillas had kidnapped while way] [they were on their home .               ]
+swap       [ROOT Wednesday guerrillas had kidnapped way] [while they were on their home .         ]
+end process non-proj ...
+
+shift      [ROOT Wednesday guerrillas had kidnapped way while] [they were on their home .               ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [they were on their home .               ]
+shift      [ROOT Wednesday guerrillas had kidnapped way they] [were on their home .                    ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [were on their home .                    ]
+shift      [ROOT Wednesday guerrillas had kidnapped way were] [on their home .                         ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [on their home .                         ]
+shift      [ROOT Wednesday guerrillas had kidnapped way on] [their home .                            ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [their home .                            ]
+shift      [ROOT Wednesday guerrillas had kidnapped way their] [home .                                  ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [home .                                  ]
+shift      [ROOT Wednesday guerrillas had kidnapped way home] [.                                       ]
+right-r         [ROOT Wednesday guerrillas had kidnapped way] [.                                       ]
+right-r         [ROOT Wednesday guerrillas had kidnapped] [.                                       ]
+shift      [ROOT Wednesday guerrillas had kidnapped .] [                                        ]
+right-r         [ROOT Wednesday guerrillas had kidnapped] [                                        ]
+left-r          [ROOT Wednesday guerrillas kidnapped] [                                        ]
+left-r          [ROOT Wednesday kidnapped] [                                        ]
+left-r          [      ROOT kidnapped] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [             ROOT In] [Suwayrah , Kut Province , two car bombs were discovered before they could be detonated .]
+shift      [    ROOT In Suwayrah] [, Kut Province , two car bombs were discovered before they could be detonated .]
+left-r          [       ROOT Suwayrah] [, Kut Province , two car bombs were discovered before they could be detonated .]
+shift      [     ROOT Suwayrah ,] [Kut Province , two car bombs were discovered before they could be detonated .]
+right-r         [       ROOT Suwayrah] [Kut Province , two car bombs were discovered before they could be detonated .]
+
+process non-proj swap 4
+shift      [   ROOT Suwayrah Kut] [Province , two car bombs were discovered before they could be detonated .]
+shift      [ROOT Suwayrah Kut Province] [, two car bombs were discovered before they could be detonated .]
+swap       [ROOT Suwayrah Province] [Kut , two car bombs were discovered before they could be detonated .]
+end process non-proj ...
+
+shift      [ROOT Suwayrah Province Kut] [, two car bombs were discovered before they could be detonated .]
+right-r         [ROOT Suwayrah Province] [, two car bombs were discovered before they could be detonated .]
+right-r         [       ROOT Suwayrah] [, two car bombs were discovered before they could be detonated .]
+shift      [     ROOT Suwayrah ,] [two car bombs were discovered before they could be detonated .]
+shift      [ ROOT Suwayrah , two] [car bombs were discovered before they could be detonated .]
+shift      [ROOT Suwayrah , two car] [bombs were discovered before they could be detonated .]
+shift      [ROOT Suwayrah , two car bombs] [were discovered before they could be detonated .]
+left-r          [ROOT Suwayrah , two bombs] [were discovered before they could be detonated .]
+left-r          [ROOT Suwayrah , bombs] [were discovered before they could be detonated .]
+shift      [ROOT Suwayrah , bombs were] [discovered before they could be detonated .]
+shift      [ROOT Suwayrah , bombs were discovered] [before they could be detonated .        ]
+
+process non-proj swap 15
+shift      [ROOT Suwayrah , bombs were discovered before] [they could be detonated .               ]
+shift      [ROOT Suwayrah , bombs were discovered before they] [could be detonated .                    ]
+shift      [ROOT Suwayrah , bombs were discovered before they could] [be detonated .                          ]
+shift      [ROOT Suwayrah , bombs were discovered before they could be] [detonated .                             ]
+shift      [ROOT Suwayrah , bombs were discovered before they could be detonated] [.                                       ]
+swap       [ROOT Suwayrah , bombs were discovered before they could detonated] [be .                                    ]
+swap       [ROOT Suwayrah , bombs were discovered before they detonated] [could be .                              ]
+swap       [ROOT Suwayrah , bombs were discovered before detonated] [they could be .                         ]
+swap       [ROOT Suwayrah , bombs were discovered detonated] [before they could be .                  ]
+end process non-proj ...
+
+shift      [ROOT Suwayrah , bombs were discovered detonated before] [they could be .                         ]
+right-r         [ROOT Suwayrah , bombs were discovered detonated] [they could be .                         ]
+shift      [ROOT Suwayrah , bombs were discovered detonated they] [could be .                              ]
+right-r         [ROOT Suwayrah , bombs were discovered detonated] [could be .                              ]
+shift      [ROOT Suwayrah , bombs were discovered detonated could] [be .                                    ]
+right-r         [ROOT Suwayrah , bombs were discovered detonated] [be .                                    ]
+shift      [ROOT Suwayrah , bombs were discovered detonated be] [.                                       ]
+right-r         [ROOT Suwayrah , bombs were discovered detonated] [.                                       ]
+right-r         [ROOT Suwayrah , bombs were discovered] [.                                       ]
+shift      [ROOT Suwayrah , bombs were discovered .] [                                        ]
+right-r         [ROOT Suwayrah , bombs were discovered] [                                        ]
+left-r          [ROOT Suwayrah , bombs discovered] [                                        ]
+left-r          [ROOT Suwayrah , discovered] [                                        ]
+left-r          [ROOT Suwayrah discovered] [                                        ]
+left-r          [     ROOT discovered] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [              ROOT (] [Kut is in southeastern Iraq and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [          ROOT ( Kut] [is in southeastern Iraq and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [       ROOT ( Kut is] [in southeastern Iraq and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [    ROOT ( Kut is in] [southeastern Iraq and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern] [Iraq and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq] [and has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+
+process non-proj swap 7
+shift      [ROOT ( Kut is in southeastern Iraq and] [has an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq and has] [an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has] [and an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has and] [an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has] [an overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+
+process non-proj swap 11
+shift      [ROOT ( Kut is in southeastern Iraq has an] [overwhelmingly Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has an overwhelmingly] [Shiite population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has an overwhelmingly Shiite] [population , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has an overwhelmingly Shiite population] [, who are on the lookout for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has an overwhelmingly population] [Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has an population] [overwhelmingly Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population] [an overwhelmingly Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has population an] [overwhelmingly Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population] [overwhelmingly Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+
+process non-proj swap 10
+shift      [ROOT ( Kut is in southeastern Iraq has population overwhelmingly] [Shiite , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population overwhelmingly Shiite] [, who are on the lookout for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population Shiite] [overwhelmingly , who are on the lookout for Baathist saboteurs and willingly turn them in .]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has population Shiite overwhelmingly] [, who are on the lookout for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population Shiite] [, who are on the lookout for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population] [, who are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population ,] [who are on the lookout for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population] [who are on the lookout for Baathist saboteurs and willingly turn them in .]
+
+process non-proj swap 17
+shift      [ROOT ( Kut is in southeastern Iraq has population who] [are on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population who are] [on the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population who are on] [the lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population who are on the] [lookout for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population who are on the lookout] [for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population who are on lookout] [the for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population who are lookout] [on the for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population who lookout] [are on the for Baathist saboteurs and willingly turn them in .]
+swap       [ROOT ( Kut is in southeastern Iraq has population lookout] [who are on the for Baathist saboteurs and willingly turn them in .]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout who] [are on the for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [are on the for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout are] [on the for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [on the for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout on] [the for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [the for Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout the] [for Baathist saboteurs and willingly turn them in .]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [for Baathist saboteurs and willingly turn them in .]
+
+process non-proj swap 20
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout for] [Baathist saboteurs and willingly turn them in .]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout for Baathist] [saboteurs and willingly turn them in .  ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout for Baathist saboteurs] [and willingly turn them in .            ]
+swap       [ROOT ( Kut is in southeastern Iraq has population lookout for saboteurs] [Baathist and willingly turn them in .   ]
+swap       [ROOT ( Kut is in southeastern Iraq has population lookout saboteurs] [for Baathist and willingly turn them in .]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout saboteurs for] [Baathist and willingly turn them in .   ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout saboteurs] [Baathist and willingly turn them in .   ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout saboteurs Baathist] [and willingly turn them in .            ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout saboteurs] [and willingly turn them in .            ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [and willingly turn them in .            ]
+
+process non-proj swap 23
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout and] [willingly turn them in .                ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout and willingly] [turn them in .                          ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout and willingly turn] [them in .                               ]
+swap       [ROOT ( Kut is in southeastern Iraq has population lookout and turn] [willingly them in .                     ]
+swap       [ROOT ( Kut is in southeastern Iraq has population lookout turn] [and willingly them in .                 ]
+end process non-proj ...
+
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout turn and] [willingly them in .                     ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout turn] [willingly them in .                     ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout turn willingly] [them in .                               ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout turn] [them in .                               ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout turn them] [in .                                    ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout turn] [in .                                    ]
+shift      [ROOT ( Kut is in southeastern Iraq has population lookout turn in] [.                                       ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout turn] [.                                       ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population lookout] [.                                       ]
+right-r         [ROOT ( Kut is in southeastern Iraq has population] [.                                       ]
+right-r         [ROOT ( Kut is in southeastern Iraq has] [.                                       ]
+right-r         [ROOT ( Kut is in southeastern Iraq] [.                                       ]
+shift      [ROOT ( Kut is in southeastern Iraq .] [                                        ]
+right-r         [ROOT ( Kut is in southeastern Iraq] [                                        ]
+left-r          [ROOT ( Kut is in Iraq] [                                        ]
+left-r          [  ROOT ( Kut is Iraq] [                                        ]
+left-r          [     ROOT ( Kut Iraq] [                                        ]
+left-r          [         ROOT ( Iraq] [                                        ]
+left-r          [           ROOT Iraq] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [           ROOT This] [willingness is the main difference in the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT This willingness] [is the main difference in the number of bombings in the south as opposed to the center - north of the country . )]
+left-r          [    ROOT willingness] [is the main difference in the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ ROOT willingness is] [the main difference in the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the] [main difference in the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main] [difference in the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference] [in the number of bombings in the south as opposed to the center - north of the country . )]
+
+process non-proj swap 8
+shift      [ROOT willingness is the main difference in] [the number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference in the] [number of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference in the number] [of bombings in the south as opposed to the center - north of the country . )]
+swap       [ROOT willingness is the main difference in number] [the of bombings in the south as opposed to the center - north of the country . )]
+swap       [ROOT willingness is the main difference number] [in the of bombings in the south as opposed to the center - north of the country . )]
+end process non-proj ...
+
+shift      [ROOT willingness is the main difference number in] [the of bombings in the south as opposed to the center - north of the country . )]
+right-r         [ROOT willingness is the main difference number] [the of bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number the] [of bombings in the south as opposed to the center - north of the country . )]
+right-r         [ROOT willingness is the main difference number] [of bombings in the south as opposed to the center - north of the country . )]
+
+process non-proj swap 10
+shift      [ROOT willingness is the main difference number of] [bombings in the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number of bombings] [in the south as opposed to the center - north of the country . )]
+swap       [ROOT willingness is the main difference number bombings] [of in the south as opposed to the center - north of the country . )]
+end process non-proj ...
+
+shift      [ROOT willingness is the main difference number bombings of] [in the south as opposed to the center - north of the country . )]
+right-r         [ROOT willingness is the main difference number bombings] [in the south as opposed to the center - north of the country . )]
+
+process non-proj swap 13
+shift      [ROOT willingness is the main difference number bombings in] [the south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number bombings in the] [south as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number bombings in the south] [as opposed to the center - north of the country . )]
+swap       [ROOT willingness is the main difference number bombings in south] [the as opposed to the center - north of the country . )]
+swap       [ROOT willingness is the main difference number bombings south] [in the as opposed to the center - north of the country . )]
+end process non-proj ...
+
+shift      [ROOT willingness is the main difference number bombings south in] [the as opposed to the center - north of the country . )]
+right-r         [ROOT willingness is the main difference number bombings south] [the as opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number bombings south the] [as opposed to the center - north of the country . )]
+right-r         [ROOT willingness is the main difference number bombings south] [as opposed to the center - north of the country . )]
+
+process non-proj swap 20
+shift      [ROOT willingness is the main difference number bombings south as] [opposed to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number bombings south as opposed] [to the center - north of the country . )]
+shift      [ROOT willingness is the main difference number bombings south as opposed to] [the center - north of the country . )   ]
+shift      [ROOT willingness is the main difference number bombings south as opposed to the] [center - north of the country . )       ]
+shift      [ROOT willingness is the main difference number bombings south as opposed to the center] [- north of the country . )              ]
+shift      [ROOT willingness is the main difference number bombings south as opposed to the center -] [north of the country . )                ]
+shift      [ROOT willingness is the main difference number bombings south as opposed to the center - north] [of the country . )                      ]
+swap       [ROOT willingness is the main difference number bombings south as opposed to the center north] [- of the country . )                    ]
+swap       [ROOT willingness is the main difference number bombings south as opposed to the north] [center - of the country . )             ]
+swap       [ROOT willingness is the main difference number bombings south as opposed to north] [the center - of the country . )         ]
+swap       [ROOT willingness is the main difference number bombings south as opposed north] [to the center - of the country . )      ]
+swap       [ROOT willingness is the main difference number bombings south as north] [opposed to the center - of the country . )]
+swap       [ROOT willingness is the main difference number bombings south north] [as opposed to the center - of the country . )]
+end process non-proj ...
+
+shift      [ROOT willingness is the main difference number bombings south north as] [opposed to the center - of the country . )]
+shift      [ROOT willingness is the main difference number bombings south north as opposed] [to the center - of the country . )      ]
+right-r         [ROOT willingness is the main difference number bombings south north as] [to the center - of the country . )      ]
+shift      [ROOT willingness is the main difference number bombings south north as to] [the center - of the country . )         ]
+right-r         [ROOT willingness is the main difference number bombings south north as] [the center - of the country . )         ]
+right-r         [ROOT willingness is the main difference number bombings south north] [the center - of the country . )         ]
+shift      [ROOT willingness is the main difference number bombings south north the] [center - of the country . )             ]
+right-r         [ROOT willingness is the main difference number bombings south north] [center - of the country . )             ]
+shift      [ROOT willingness is the main difference number bombings south north center] [- of the country . )                    ]
+right-r         [ROOT willingness is the main difference number bombings south north] [- of the country . )                    ]
+shift      [ROOT willingness is the main difference number bombings south north -] [of the country . )                      ]
+right-r         [ROOT willingness is the main difference number bombings south north] [of the country . )                      ]
+
+process non-proj swap 23
+shift      [ROOT willingness is the main difference number bombings south north of] [the country . )                         ]
+shift      [ROOT willingness is the main difference number bombings south north of the] [country . )                             ]
+shift      [ROOT willingness is the main difference number bombings south north of the country] [. )                                     ]
+swap       [ROOT willingness is the main difference number bombings south north of country] [the . )                                 ]
+swap       [ROOT willingness is the main difference number bombings south north country] [of the . )                              ]
+end process non-proj ...
+
+shift      [ROOT willingness is the main difference number bombings south north country of] [the . )                                 ]
+right-r         [ROOT willingness is the main difference number bombings south north country] [the . )                                 ]
+shift      [ROOT willingness is the main difference number bombings south north country the] [. )                                     ]
+right-r         [ROOT willingness is the main difference number bombings south north country] [. )                                     ]
+right-r         [ROOT willingness is the main difference number bombings south north] [. )                                     ]
+right-r         [ROOT willingness is the main difference number bombings south] [. )                                     ]
+right-r         [ROOT willingness is the main difference number bombings] [. )                                     ]
+right-r         [ROOT willingness is the main difference number] [. )                                     ]
+right-r         [ROOT willingness is the main difference] [. )                                     ]
+shift      [ROOT willingness is the main difference .] [)                                       ]
+right-r         [ROOT willingness is the main difference] [)                                       ]
+shift      [ROOT willingness is the main difference )] [                                        ]
+right-r         [ROOT willingness is the main difference] [                                        ]
+left-r          [ROOT willingness is the difference] [                                        ]
+left-r          [ROOT willingness is difference] [                                        ]
+left-r          [ROOT willingness difference] [                                        ]
+left-r          [     ROOT difference] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [             ROOT In] [Baghdad Kadhim Talal Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [     ROOT In Baghdad] [Kadhim Talal Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+left-r          [        ROOT Baghdad] [Kadhim Talal Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ ROOT Baghdad Kadhim] [Talal Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim Talal] [Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ ROOT Baghdad Kadhim] [Husain , assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim Husain] [, assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ ROOT Baghdad Kadhim] [, assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim ,] [assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ ROOT Baghdad Kadhim] [assistant dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+
+process non-proj swap 7
+shift      [ROOT Baghdad Kadhim assistant] [dean at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim assistant dean] [at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean] [assistant at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim dean assistant] [at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean] [at the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+
+process non-proj swap 10
+shift      [ROOT Baghdad Kadhim dean at] [the School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean at the] [School of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean at the School] [of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean at School] [the of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean School] [at the of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim dean School at] [the of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School] [the of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean School the] [of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School] [of Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+
+process non-proj swap 12
+shift      [ROOT Baghdad Kadhim dean School of] [Education at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean School of Education] [at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean School Education] [of at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim dean School Education of] [at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School Education] [at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School] [at Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+
+process non-proj swap 15
+shift      [ROOT Baghdad Kadhim dean School at] [Mustansiriyah University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean School at Mustansiriyah] [University , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean School at Mustansiriyah University] [, was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean School at University] [Mustansiriyah , was assassinated with his driver in the Salikh district .]
+swap       [ROOT Baghdad Kadhim dean School University] [at Mustansiriyah , was assassinated with his driver in the Salikh district .]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim dean School University at] [Mustansiriyah , was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School University] [Mustansiriyah , was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim dean School University Mustansiriyah] [, was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School University] [, was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean School] [, was assassinated with his driver in the Salikh district .]
+right-r         [ROOT Baghdad Kadhim dean] [, was assassinated with his driver in the Salikh district .]
+right-r         [ ROOT Baghdad Kadhim] [, was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim ,] [was assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim , was] [assassinated with his driver in the Salikh district .]
+shift      [ROOT Baghdad Kadhim , was assassinated] [with his driver in the Salikh district .]
+
+process non-proj swap 21
+shift      [ROOT Baghdad Kadhim , was assassinated with] [his driver in the Salikh district .     ]
+shift      [ROOT Baghdad Kadhim , was assassinated with his] [driver in the Salikh district .         ]
+shift      [ROOT Baghdad Kadhim , was assassinated with his driver] [in the Salikh district .                ]
+swap       [ROOT Baghdad Kadhim , was assassinated with driver] [his in the Salikh district .            ]
+swap       [ROOT Baghdad Kadhim , was assassinated driver] [with his in the Salikh district .       ]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim , was assassinated driver with] [his in the Salikh district .            ]
+right-r         [ROOT Baghdad Kadhim , was assassinated driver] [his in the Salikh district .            ]
+shift      [ROOT Baghdad Kadhim , was assassinated driver his] [in the Salikh district .                ]
+right-r         [ROOT Baghdad Kadhim , was assassinated driver] [in the Salikh district .                ]
+right-r         [ROOT Baghdad Kadhim , was assassinated] [in the Salikh district .                ]
+
+process non-proj swap 25
+shift      [ROOT Baghdad Kadhim , was assassinated in] [the Salikh district .                   ]
+shift      [ROOT Baghdad Kadhim , was assassinated in the] [Salikh district .                       ]
+shift      [ROOT Baghdad Kadhim , was assassinated in the Salikh] [district .                              ]
+shift      [ROOT Baghdad Kadhim , was assassinated in the Salikh district] [.                                       ]
+swap       [ROOT Baghdad Kadhim , was assassinated in the district] [Salikh .                                ]
+swap       [ROOT Baghdad Kadhim , was assassinated in district] [the Salikh .                            ]
+swap       [ROOT Baghdad Kadhim , was assassinated district] [in the Salikh .                         ]
+end process non-proj ...
+
+shift      [ROOT Baghdad Kadhim , was assassinated district in] [the Salikh .                            ]
+right-r         [ROOT Baghdad Kadhim , was assassinated district] [the Salikh .                            ]
+shift      [ROOT Baghdad Kadhim , was assassinated district the] [Salikh .                                ]
+right-r         [ROOT Baghdad Kadhim , was assassinated district] [Salikh .                                ]
+shift      [ROOT Baghdad Kadhim , was assassinated district Salikh] [.                                       ]
+right-r         [ROOT Baghdad Kadhim , was assassinated district] [.                                       ]
+right-r         [ROOT Baghdad Kadhim , was assassinated] [.                                       ]
+shift      [ROOT Baghdad Kadhim , was assassinated .] [                                        ]
+right-r         [ROOT Baghdad Kadhim , was assassinated] [                                        ]
+left-r          [ROOT Baghdad Kadhim , assassinated] [                                        ]
+left-r          [ROOT Baghdad Kadhim assassinated] [                                        ]
+left-r          [ROOT Baghdad assassinated] [                                        ]
+left-r          [   ROOT assassinated] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [     ROOT Guerrillas] [killed an engineer , Asi Ali , from Tikrit .]
+shift      [ROOT Guerrillas killed] [an engineer , Asi Ali , from Tikrit .   ]
+left-r          [         ROOT killed] [an engineer , Asi Ali , from Tikrit .   ]
+
+process non-proj swap 3
+shift      [      ROOT killed an] [engineer , Asi Ali , from Tikrit .      ]
+shift      [ROOT killed an engineer] [, Asi Ali , from Tikrit .               ]
+swap       [ROOT killed engineer] [an , Asi Ali , from Tikrit .            ]
+end process non-proj ...
+
+shift      [ROOT killed engineer an] [, Asi Ali , from Tikrit .               ]
+right-r         [ROOT killed engineer] [, Asi Ali , from Tikrit .               ]
+shift      [ROOT killed engineer ,] [Asi Ali , from Tikrit .                 ]
+right-r         [ROOT killed engineer] [Asi Ali , from Tikrit .                 ]
+shift      [ROOT killed engineer Asi] [Ali , from Tikrit .                     ]
+shift      [ROOT killed engineer Asi Ali] [, from Tikrit .                         ]
+right-r         [ROOT killed engineer Asi] [, from Tikrit .                         ]
+right-r         [ROOT killed engineer] [, from Tikrit .                         ]
+shift      [ROOT killed engineer ,] [from Tikrit .                           ]
+right-r         [ROOT killed engineer] [from Tikrit .                           ]
+
+process non-proj swap 9
+shift      [ROOT killed engineer from] [Tikrit .                                ]
+shift      [ROOT killed engineer from Tikrit] [.                                       ]
+swap       [ROOT killed engineer Tikrit] [from .                                  ]
+end process non-proj ...
+
+shift      [ROOT killed engineer Tikrit from] [.                                       ]
+right-r         [ROOT killed engineer Tikrit] [.                                       ]
+right-r         [ROOT killed engineer] [.                                       ]
+right-r         [         ROOT killed] [.                                       ]
+shift      [       ROOT killed .] [                                        ]
+right-r         [         ROOT killed] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [           ROOT They] [also killed Shaikh Hamid 'Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [      ROOT They also] [killed Shaikh Hamid 'Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed] [Shaikh Hamid 'Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh] [Hamid 'Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh Hamid] ['Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+right-r         [ROOT They also killed Shaikh] ['Akkab , a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh 'Akkab] [, a clan elder of a branch of the Dulaim tribe in Tikrit .]
+right-r         [ROOT They also killed Shaikh] [, a clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh ,] [a clan elder of a branch of the Dulaim tribe in Tikrit .]
+right-r         [ROOT They also killed Shaikh] [a clan elder of a branch of the Dulaim tribe in Tikrit .]
+
+process non-proj swap 9
+shift      [ROOT They also killed Shaikh a] [clan elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh a clan] [elder of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh a clan elder] [of a branch of the Dulaim tribe in Tikrit .]
+swap       [ROOT They also killed Shaikh a elder] [clan of a branch of the Dulaim tribe in Tikrit .]
+swap       [ROOT They also killed Shaikh elder] [a clan of a branch of the Dulaim tribe in Tikrit .]
+end process non-proj ...
+
+shift      [ROOT They also killed Shaikh elder a] [clan of a branch of the Dulaim tribe in Tikrit .]
+right-r         [ROOT They also killed Shaikh elder] [clan of a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh elder clan] [of a branch of the Dulaim tribe in Tikrit .]
+right-r         [ROOT They also killed Shaikh elder] [of a branch of the Dulaim tribe in Tikrit .]
+
+process non-proj swap 12
+shift      [ROOT They also killed Shaikh elder of] [a branch of the Dulaim tribe in Tikrit .]
+shift      [ROOT They also killed Shaikh elder of a] [branch of the Dulaim tribe in Tikrit .  ]
+shift      [ROOT They also killed Shaikh elder of a branch] [of the Dulaim tribe in Tikrit .         ]
+swap       [ROOT They also killed Shaikh elder of branch] [a of the Dulaim tribe in Tikrit .       ]
+swap       [ROOT They also killed Shaikh elder branch] [of a of the Dulaim tribe in Tikrit .    ]
+end process non-proj ...
+
+shift      [ROOT They also killed Shaikh elder branch of] [a of the Dulaim tribe in Tikrit .       ]
+right-r         [ROOT They also killed Shaikh elder branch] [a of the Dulaim tribe in Tikrit .       ]
+shift      [ROOT They also killed Shaikh elder branch a] [of the Dulaim tribe in Tikrit .         ]
+right-r         [ROOT They also killed Shaikh elder branch] [of the Dulaim tribe in Tikrit .         ]
+
+process non-proj swap 16
+shift      [ROOT They also killed Shaikh elder branch of] [the Dulaim tribe in Tikrit .            ]
+shift      [ROOT They also killed Shaikh elder branch of the] [Dulaim tribe in Tikrit .                ]
+shift      [ROOT They also killed Shaikh elder branch of the Dulaim] [tribe in Tikrit .                       ]
+shift      [ROOT They also killed Shaikh elder branch of the Dulaim tribe] [in Tikrit .                             ]
+swap       [ROOT They also killed Shaikh elder branch of the tribe] [Dulaim in Tikrit .                      ]
+swap       [ROOT They also killed Shaikh elder branch of tribe] [the Dulaim in Tikrit .                  ]
+swap       [ROOT They also killed Shaikh elder branch tribe] [of the Dulaim in Tikrit .               ]
+end process non-proj ...
+
+shift      [ROOT They also killed Shaikh elder branch tribe of] [the Dulaim in Tikrit .                  ]
+right-r         [ROOT They also killed Shaikh elder branch tribe] [the Dulaim in Tikrit .                  ]
+shift      [ROOT They also killed Shaikh elder branch tribe the] [Dulaim in Tikrit .                      ]
+right-r         [ROOT They also killed Shaikh elder branch tribe] [Dulaim in Tikrit .                      ]
+shift      [ROOT They also killed Shaikh elder branch tribe Dulaim] [in Tikrit .                             ]
+right-r         [ROOT They also killed Shaikh elder branch tribe] [in Tikrit .                             ]
+right-r         [ROOT They also killed Shaikh elder branch] [in Tikrit .                             ]
+right-r         [ROOT They also killed Shaikh elder] [in Tikrit .                             ]
+right-r         [ROOT They also killed Shaikh] [in Tikrit .                             ]
+right-r         [ROOT They also killed] [in Tikrit .                             ]
+
+process non-proj swap 18
+shift      [ROOT They also killed in] [Tikrit .                                ]
+shift      [ROOT They also killed in Tikrit] [.                                       ]
+swap       [ROOT They also killed Tikrit] [in .                                    ]
+end process non-proj ...
+
+shift      [ROOT They also killed Tikrit in] [.                                       ]
+right-r         [ROOT They also killed Tikrit] [.                                       ]
+right-r         [ROOT They also killed] [.                                       ]
+shift      [ROOT They also killed .] [                                        ]
+right-r         [ROOT They also killed] [                                        ]
+left-r          [    ROOT They killed] [                                        ]
+left-r          [         ROOT killed] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT His] [mother was also killed in the attack .  ]
+shift      [     ROOT His mother] [was also killed in the attack .         ]
+left-r          [         ROOT mother] [was also killed in the attack .         ]
+shift      [     ROOT mother was] [also killed in the attack .             ]
+shift      [ROOT mother was also] [killed in the attack .                  ]
+shift      [ROOT mother was also killed] [in the attack .                         ]
+
+process non-proj swap 7
+shift      [ROOT mother was also killed in] [the attack .                            ]
+shift      [ROOT mother was also killed in the] [attack .                                ]
+shift      [ROOT mother was also killed in the attack] [.                                       ]
+swap       [ROOT mother was also killed in attack] [the .                                   ]
+swap       [ROOT mother was also killed attack] [in the .                                ]
+end process non-proj ...
+
+shift      [ROOT mother was also killed attack in] [the .                                   ]
+right-r         [ROOT mother was also killed attack] [the .                                   ]
+shift      [ROOT mother was also killed attack the] [.                                       ]
+right-r         [ROOT mother was also killed attack] [.                                       ]
+right-r         [ROOT mother was also killed] [.                                       ]
+shift      [ROOT mother was also killed .] [                                        ]
+right-r         [ROOT mother was also killed] [                                        ]
+left-r          [ROOT mother was killed] [                                        ]
+left-r          [  ROOT mother killed] [                                        ]
+left-r          [         ROOT killed] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT Two] [other Dulaim leaders have been killed in the past week and a half .]
+shift      [      ROOT Two other] [Dulaim leaders have been killed in the past week and a half .]
+shift      [ROOT Two other Dulaim] [leaders have been killed in the past week and a half .]
+shift      [ROOT Two other Dulaim leaders] [have been killed in the past week and a half .]
+left-r          [ROOT Two other leaders] [have been killed in the past week and a half .]
+left-r          [    ROOT Two leaders] [have been killed in the past week and a half .]
+left-r          [        ROOT leaders] [have been killed in the past week and a half .]
+shift      [   ROOT leaders have] [been killed in the past week and a half .]
+shift      [ROOT leaders have been] [killed in the past week and a half .    ]
+shift      [ROOT leaders have been killed] [in the past week and a half .           ]
+
+process non-proj swap 10
+shift      [ROOT leaders have been killed in] [the past week and a half .              ]
+shift      [ROOT leaders have been killed in the] [past week and a half .                  ]
+shift      [ROOT leaders have been killed in the past] [week and a half .                       ]
+shift      [ROOT leaders have been killed in the past week] [and a half .                            ]
+swap       [ROOT leaders have been killed in the week] [past and a half .                       ]
+swap       [ROOT leaders have been killed in week] [the past and a half .                   ]
+swap       [ROOT leaders have been killed week] [in the past and a half .                ]
+end process non-proj ...
+
+shift      [ROOT leaders have been killed week in] [the past and a half .                   ]
+right-r         [ROOT leaders have been killed week] [the past and a half .                   ]
+shift      [ROOT leaders have been killed week the] [past and a half .                       ]
+right-r         [ROOT leaders have been killed week] [past and a half .                       ]
+shift      [ROOT leaders have been killed week past] [and a half .                            ]
+right-r         [ROOT leaders have been killed week] [and a half .                            ]
+
+process non-proj swap 13
+shift      [ROOT leaders have been killed week and] [a half .                                ]
+shift      [ROOT leaders have been killed week and a] [half .                                  ]
+shift      [ROOT leaders have been killed week and a half] [.                                       ]
+swap       [ROOT leaders have been killed week and half] [a .                                     ]
+swap       [ROOT leaders have been killed week half] [and a .                                 ]
+end process non-proj ...
+
+shift      [ROOT leaders have been killed week half and] [a .                                     ]
+right-r         [ROOT leaders have been killed week half] [a .                                     ]
+shift      [ROOT leaders have been killed week half a] [.                                       ]
+right-r         [ROOT leaders have been killed week half] [.                                       ]
+right-r         [ROOT leaders have been killed week] [.                                       ]
+right-r         [ROOT leaders have been killed] [.                                       ]
+shift      [ROOT leaders have been killed .] [                                        ]
+right-r         [ROOT leaders have been killed] [                                        ]
+left-r          [ROOT leaders have killed] [                                        ]
+left-r          [ ROOT leaders killed] [                                        ]
+left-r          [         ROOT killed] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [     ROOT Guerrillas] [near Hawijah launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+
+process non-proj swap 2
+shift      [ROOT Guerrillas near] [Hawijah launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+shift      [ROOT Guerrillas near Hawijah] [launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+swap       [ROOT Guerrillas Hawijah] [near launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+end process non-proj ...
+
+shift      [ROOT Guerrillas Hawijah near] [launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+right-r         [ROOT Guerrillas Hawijah] [launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+right-r         [     ROOT Guerrillas] [launched an attack that left 6 dead , including 4 Iraqi soldiers .]
+shift      [ROOT Guerrillas launched] [an attack that left 6 dead , including 4 Iraqi soldiers .]
+left-r          [       ROOT launched] [an attack that left 6 dead , including 4 Iraqi soldiers .]
+
+process non-proj swap 5
+shift      [    ROOT launched an] [attack that left 6 dead , including 4 Iraqi soldiers .]
+shift      [ROOT launched an attack] [that left 6 dead , including 4 Iraqi soldiers .]
+swap       [ROOT launched attack] [an that left 6 dead , including 4 Iraqi soldiers .]
+end process non-proj ...
+
+shift      [ROOT launched attack an] [that left 6 dead , including 4 Iraqi soldiers .]
+right-r         [ROOT launched attack] [that left 6 dead , including 4 Iraqi soldiers .]
+
+process non-proj swap 7
+shift      [ROOT launched attack that] [left 6 dead , including 4 Iraqi soldiers .]
+shift      [ROOT launched attack that left] [6 dead , including 4 Iraqi soldiers .   ]
+swap       [ROOT launched attack left] [that 6 dead , including 4 Iraqi soldiers .]
+end process non-proj ...
+
+shift      [ROOT launched attack left that] [6 dead , including 4 Iraqi soldiers .   ]
+right-r         [ROOT launched attack left] [6 dead , including 4 Iraqi soldiers .   ]
+shift      [ROOT launched attack left 6] [dead , including 4 Iraqi soldiers .     ]
+
+process non-proj swap 14
+shift      [ROOT launched attack left 6 dead] [, including 4 Iraqi soldiers .          ]
+shift      [ROOT launched attack left 6 dead ,] [including 4 Iraqi soldiers .            ]
+shift      [ROOT launched attack left 6 dead , including] [4 Iraqi soldiers .                      ]
+shift      [ROOT launched attack left 6 dead , including 4] [Iraqi soldiers .                        ]
+shift      [ROOT launched attack left 6 dead , including 4 Iraqi] [soldiers .                              ]
+shift      [ROOT launched attack left 6 dead , including 4 Iraqi soldiers] [.                                       ]
+swap       [ROOT launched attack left 6 dead , including 4 soldiers] [Iraqi .                                 ]
+swap       [ROOT launched attack left 6 dead , including soldiers] [4 Iraqi .                               ]
+swap       [ROOT launched attack left 6 dead , soldiers] [including 4 Iraqi .                     ]
+swap       [ROOT launched attack left 6 dead soldiers] [, including 4 Iraqi .                   ]
+swap       [ROOT launched attack left 6 soldiers] [dead , including 4 Iraqi .              ]
+end process non-proj ...
+
+
+process non-proj swap 11
+shift      [ROOT launched attack left 6 soldiers dead] [, including 4 Iraqi .                   ]
+shift      [ROOT launched attack left 6 soldiers dead ,] [including 4 Iraqi .                     ]
+shift      [ROOT launched attack left 6 soldiers dead , including] [4 Iraqi .                               ]
+swap       [ROOT launched attack left 6 soldiers dead including] [, 4 Iraqi .                             ]
+swap       [ROOT launched attack left 6 soldiers including] [dead , 4 Iraqi .                        ]
+end process non-proj ...
+
+right-r         [ROOT launched attack left 6 soldiers] [dead , 4 Iraqi .                        ]
+
+process non-proj swap 12
+shift      [ROOT launched attack left 6 soldiers dead] [, 4 Iraqi .                             ]
+shift      [ROOT launched attack left 6 soldiers dead ,] [4 Iraqi .                               ]
+shift      [ROOT launched attack left 6 soldiers dead , 4] [Iraqi .                                 ]
+swap       [ROOT launched attack left 6 soldiers dead 4] [, Iraqi .                               ]
+swap       [ROOT launched attack left 6 soldiers 4] [dead , Iraqi .                          ]
+end process non-proj ...
+
+right-r         [ROOT launched attack left 6 soldiers] [dead , Iraqi .                          ]
+
+process non-proj swap 13
+shift      [ROOT launched attack left 6 soldiers dead] [, Iraqi .                               ]
+shift      [ROOT launched attack left 6 soldiers dead ,] [Iraqi .                                 ]
+shift      [ROOT launched attack left 6 soldiers dead , Iraqi] [.                                       ]
+swap       [ROOT launched attack left 6 soldiers dead Iraqi] [, .                                     ]
+swap       [ROOT launched attack left 6 soldiers Iraqi] [dead , .                                ]
+end process non-proj ...
+
+right-r         [ROOT launched attack left 6 soldiers] [dead , .                                ]
+right-r         [ROOT launched attack left 6] [dead , .                                ]
+right-r         [ROOT launched attack left] [dead , .                                ]
+shift      [ROOT launched attack left dead] [, .                                     ]
+right-r         [ROOT launched attack left] [, .                                     ]
+shift      [ROOT launched attack left ,] [.                                       ]
+right-r         [ROOT launched attack left] [.                                       ]
+right-r         [ROOT launched attack] [.                                       ]
+right-r         [       ROOT launched] [.                                       ]
+shift      [     ROOT launched .] [                                        ]
+right-r         [       ROOT launched] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT One] [of them was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+
+process non-proj swap 2
+shift      [         ROOT One of] [them was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+shift      [    ROOT One of them] [was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+swap       [       ROOT One them] [of was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+end process non-proj ...
+
+shift      [    ROOT One them of] [was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+right-r         [       ROOT One them] [was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+right-r         [            ROOT One] [was from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+shift      [        ROOT One was] [from the Jubur tribe and was deputy commander of the Hawijah garrison .]
+shift      [   ROOT One was from] [the Jubur tribe and was deputy commander of the Hawijah garrison .]
+shift      [ROOT One was from the] [Jubur tribe and was deputy commander of the Hawijah garrison .]
+shift      [ROOT One was from the Jubur] [tribe and was deputy commander of the Hawijah garrison .]
+shift      [ROOT One was from the Jubur tribe] [and was deputy commander of the Hawijah garrison .]
+right-r         [ROOT One was from the Jubur] [and was deputy commander of the Hawijah garrison .]
+
+process non-proj swap 11
+shift      [ROOT One was from the Jubur and] [was deputy commander of the Hawijah garrison .]
+shift      [ROOT One was from the Jubur and was] [deputy commander of the Hawijah garrison .]
+shift      [ROOT One was from the Jubur and was deputy] [commander of the Hawijah garrison .     ]
+shift      [ROOT One was from the Jubur and was deputy commander] [of the Hawijah garrison .               ]
+swap       [ROOT One was from the Jubur and was commander] [deputy of the Hawijah garrison .        ]
+swap       [ROOT One was from the Jubur and commander] [was deputy of the Hawijah garrison .    ]
+swap       [ROOT One was from the Jubur commander] [and was deputy of the Hawijah garrison .]
+end process non-proj ...
+
+shift      [ROOT One was from the Jubur commander and] [was deputy of the Hawijah garrison .    ]
+right-r         [ROOT One was from the Jubur commander] [was deputy of the Hawijah garrison .    ]
+shift      [ROOT One was from the Jubur commander was] [deputy of the Hawijah garrison .        ]
+right-r         [ROOT One was from the Jubur commander] [deputy of the Hawijah garrison .        ]
+shift      [ROOT One was from the Jubur commander deputy] [of the Hawijah garrison .               ]
+right-r         [ROOT One was from the Jubur commander] [of the Hawijah garrison .               ]
+
+process non-proj swap 15
+shift      [ROOT One was from the Jubur commander of] [the Hawijah garrison .                  ]
+shift      [ROOT One was from the Jubur commander of the] [Hawijah garrison .                      ]
+shift      [ROOT One was from the Jubur commander of the Hawijah] [garrison .                              ]
+shift      [ROOT One was from the Jubur commander of the Hawijah garrison] [.                                       ]
+swap       [ROOT One was from the Jubur commander of the garrison] [Hawijah .                               ]
+swap       [ROOT One was from the Jubur commander of garrison] [the Hawijah .                           ]
+swap       [ROOT One was from the Jubur commander garrison] [of the Hawijah .                        ]
+end process non-proj ...
+
+shift      [ROOT One was from the Jubur commander garrison of] [the Hawijah .                           ]
+right-r         [ROOT One was from the Jubur commander garrison] [the Hawijah .                           ]
+shift      [ROOT One was from the Jubur commander garrison the] [Hawijah .                               ]
+right-r         [ROOT One was from the Jubur commander garrison] [Hawijah .                               ]
+shift      [ROOT One was from the Jubur commander garrison Hawijah] [.                                       ]
+right-r         [ROOT One was from the Jubur commander garrison] [.                                       ]
+right-r         [ROOT One was from the Jubur commander] [.                                       ]
+right-r         [ROOT One was from the Jubur] [.                                       ]
+shift      [ROOT One was from the Jubur .] [                                        ]
+right-r         [ROOT One was from the Jubur] [                                        ]
+left-r          [ROOT One was from Jubur] [                                        ]
+left-r          [  ROOT One was Jubur] [                                        ]
+left-r          [      ROOT One Jubur] [                                        ]
+left-r          [          ROOT Jubur] [                                        ]
+right-r         [                ROOT] [                                        ]
+shift      [            ROOT Two] [hundred members of the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [    ROOT Two hundred] [members of the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+left-r          [        ROOT hundred] [members of the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT hundred members] [of the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+left-r          [        ROOT members] [of the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+
+process non-proj swap 5
+shift      [     ROOT members of] [the Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ ROOT members of the] [Batawi clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members of the Batawi] [clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ROOT members of Batawi] [the clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ ROOT members Batawi] [of the clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+end process non-proj ...
+
+shift      [ROOT members Batawi of] [the clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ ROOT members Batawi] [the clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members Batawi the] [clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ ROOT members Batawi] [clan of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members Batawi clan] [of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ ROOT members Batawi] [of the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+
+process non-proj swap 9
+shift      [ROOT members Batawi of] [the Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members Batawi of the] [Dulaim demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members Batawi of the Dulaim] [demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ROOT members Batawi of Dulaim] [the demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ROOT members Batawi Dulaim] [of the demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+end process non-proj ...
+
+shift      [ROOT members Batawi Dulaim of] [the demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ROOT members Batawi Dulaim] [the demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members Batawi Dulaim the] [demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ROOT members Batawi Dulaim] [demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ ROOT members Batawi] [demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [        ROOT members] [demonstrated in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT members demonstrated] [in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+left-r          [   ROOT demonstrated] [in Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+
+process non-proj swap 12
+shift      [ROOT demonstrated in] [Baghdad on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated in Baghdad] [on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ROOT demonstrated Baghdad] [in on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+end process non-proj ...
+
+shift      [ROOT demonstrated Baghdad in] [on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ROOT demonstrated Baghdad] [on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [   ROOT demonstrated] [on Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+
+process non-proj swap 14
+shift      [ROOT demonstrated on] [Friday , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated on Friday] [, protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+swap       [ROOT demonstrated Friday] [on , protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+end process non-proj ...
+
+shift      [ROOT demonstrated Friday on] [, protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [ROOT demonstrated Friday] [, protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [   ROOT demonstrated] [, protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ ROOT demonstrated ,] [protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [   ROOT demonstrated] [protesting the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated protesting] [the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+right-r         [   ROOT demonstrated] [the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+
+process non-proj swap 39
+shift      [ROOT demonstrated the] [killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing] [of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of] [their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their] [clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan] [elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder] [, Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder ,] [Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh] [Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim] [Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid] [and 4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and] [4 of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4] [of his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of] [his sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his] [sons , by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons] [, by gunmen wearing Iraqi army uniforms .]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons ,] [by gunmen wearing Iraqi army uniforms . ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by] [gunmen wearing Iraqi army uniforms .    ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen] [wearing Iraqi army uniforms .           ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing] [Iraqi army uniforms .                   ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi] [army uniforms .                         ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army] [uniforms .                              ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms] [.                                       ]
+shift      [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms .] [                                        ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army .] [uniforms                                ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi .] [army uniforms                           ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing .] [Iraqi army uniforms                     ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen .] [wearing Iraqi army uniforms             ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by .] [gunmen wearing Iraqi army uniforms      ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , .] [by gunmen wearing Iraqi army uniforms   ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons .] [, by gunmen wearing Iraqi army uniforms ]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his .] [sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of .] [his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and 4 .] [of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid and .] [4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim Sarhid .] [and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh Kadhim .] [Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , Shaikh .] [Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder , .] [Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan elder .] [, Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their clan .] [elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their .] [clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of .] [their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing .] [of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the .] [killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ ROOT demonstrated .] [the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+end process non-proj ...
+
+right-r         [   ROOT demonstrated] [the killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the] [killing of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing] [of their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+
+process non-proj swap 22
+shift      [ROOT demonstrated the killing of] [their clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing of their] [clan elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing of their clan] [elder , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing of their clan elder] [, Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of their elder] [clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing of elder] [their clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing elder] [of their clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+end process non-proj ...
+
+shift      [ROOT demonstrated the killing elder of] [their clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder] [their clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder their] [clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder] [clan , Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder clan] [, Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder] [, Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder ,] [Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder] [Shaikh Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder Shaikh] [Kadhim Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder Shaikh Kadhim] [Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder Shaikh] [Sarhid and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder Shaikh Sarhid] [and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder Shaikh] [and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder] [and 4 of his sons , by gunmen wearing Iraqi army uniforms]
+
+process non-proj swap 28
+shift      [ROOT demonstrated the killing elder and] [4 of his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder and 4] [of his sons , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing elder 4] [and of his sons , by gunmen wearing Iraqi army uniforms]
+end process non-proj ...
+
+shift      [ROOT demonstrated the killing elder 4 and] [of his sons , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder 4] [of his sons , by gunmen wearing Iraqi army uniforms]
+
+process non-proj swap 31
+shift      [ROOT demonstrated the killing elder 4 of] [his sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder 4 of his] [sons , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder 4 of his sons] [, by gunmen wearing Iraqi army uniforms ]
+swap       [ROOT demonstrated the killing elder 4 of sons] [his , by gunmen wearing Iraqi army uniforms]
+swap       [ROOT demonstrated the killing elder 4 sons] [of his , by gunmen wearing Iraqi army uniforms]
+end process non-proj ...
+
+shift      [ROOT demonstrated the killing elder 4 sons of] [his , by gunmen wearing Iraqi army uniforms]
+right-r         [ROOT demonstrated the killing elder 4 sons] [his , by gunmen wearing Iraqi army uniforms]
+shift      [ROOT demonstrated the killing elder 4 sons his] [, by gunmen wearing Iraqi army uniforms ]
+right-r         [ROOT demonstrated the killing elder 4 sons] [, by gunmen wearing Iraqi army uniforms ]
+right-r         [ROOT demonstrated the killing elder 4] [, by gunmen wearing Iraqi army uniforms ]
+right-r         [ROOT demonstrated the killing elder] [, by gunmen wearing Iraqi army uniforms ]
+right-r         [ROOT demonstrated the killing] [, by gunmen wearing Iraqi army uniforms ]
+shift      [ROOT demonstrated the killing ,] [by gunmen wearing Iraqi army uniforms   ]
+right-r         [ROOT demonstrated the killing] [by gunmen wearing Iraqi army uniforms   ]
+
+process non-proj swap 34
+shift      [ROOT demonstrated the killing by] [gunmen wearing Iraqi army uniforms      ]
+shift      [ROOT demonstrated the killing by gunmen] [wearing Iraqi army uniforms             ]
+swap       [ROOT demonstrated the killing gunmen] [by wearing Iraqi army uniforms          ]
+end process non-proj ...
+
+shift      [ROOT demonstrated the killing gunmen by] [wearing Iraqi army uniforms             ]
+right-r         [ROOT demonstrated the killing gunmen] [wearing Iraqi army uniforms             ]
+shift      [ROOT demonstrated the killing gunmen wearing] [Iraqi army uniforms                     ]
+
+process non-proj swap 38
+shift      [ROOT demonstrated the killing gunmen wearing Iraqi] [army uniforms                           ]
+shift      [ROOT demonstrated the killing gunmen wearing Iraqi army] [uniforms                                ]
+shift      [ROOT demonstrated the killing gunmen wearing Iraqi army uniforms] [                                        ]
+swap       [ROOT demonstrated the killing gunmen wearing Iraqi uniforms] [army                                    ]
+swap       [ROOT demonstrated the killing gunmen wearing uniforms] [Iraqi army                              ]
+end process non-proj ...
+
+shift      [ROOT demonstrated the killing gunmen wearing uniforms Iraqi] [army                                    ]
+right-r         [ROOT demonstrated the killing gunmen wearing uniforms] [army                                    ]
+shift      [ROOT demonstrated the killing gunmen wearing uniforms army] [                                        ]
+right-r         [ROOT demonstrated the killing gunmen wearing uniforms] [                                        ]
+right-r         [ROOT demonstrated the killing gunmen wearing] [                                        ]
+right-r         [ROOT demonstrated the killing gunmen] [                                        ]
+right-r         [ROOT demonstrated the killing] [                                        ]
+left-r          [ROOT demonstrated killing] [                                        ]
